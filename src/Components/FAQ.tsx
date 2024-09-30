@@ -2,22 +2,22 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        question: "what",
+        question: "What is Liquity?",
         answer:
             "Liquity is a decentralized borrowing protocol that allows you to draw 0% interest loans against Ether used as collateral. Loans are paid out in LUSD - a USD pegged stablecoin, and need to maintain a minimum collateral ratio of only 110%. In addition to the collateral, the loans are secured by a Stability Pool containing LUSD and by fellow borrowers collectively acting as guarantors of last resort. Liquity as a protocol is non-custodial, immutable and governance-free.",
     },
     {
-        question: "why",
+        question: "How can I use Liquity?",
         answer:
             "To use Liquity, you need to deposit Ether as collateral and then you can borrow LUSD against it.",
     },
     {
-        question: "how",
+        question: "What are the key benefits of Liquity?",
         answer:
             "Key benefits include 0% interest rates, a low collateral ratio, and a governance-free protocol.",
     },
     {
-        question: "who",
+        question: "How can I earn money on Liquity?",
         answer:
             "You can earn money on Liquity by providing stability liquidity and earning liquidation gains.",
     },
@@ -32,6 +32,7 @@ const FAQ: React.FC = () => {
 
     return (
         <div className="max-w-4xl mx-auto p-6">
+            <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">FAQ</h1>
             {faqs.map((faq, index) => (
                 <div key={index} className="mb-6">
                     <button

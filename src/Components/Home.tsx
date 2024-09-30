@@ -1,6 +1,11 @@
 import React from 'react';
 import Carousel from './Carousel';
-import FAQ from './FAQ';
+import WhatSection from './Overview/WhatSection';
+import WhySection from './Overview/WhySection';
+import HowSection from './Overview/HowSection';
+import TeamSection from './Overview/TeamSection';
+import TimelineSection from './Overview/TimelineSection';
+// import FAQ from './FAQ';
 import Footer from './Footer';
 
 const Home: React.FC = () => {
@@ -11,9 +16,9 @@ const Home: React.FC = () => {
           <h1 className="text-4xl md:text-6xl font-black text-white">STABLEBASE</h1>
           <h2 className="md:text-lg text-gray-200">Empowering You to Control Your Financial Future</h2>
           <div>
-          <button className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">
-            Get started for free
-          </button>
+            <button className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">
+              Get started for free
+            </button>
           </div>
         </div>
         <div className="flex mx-auto">
@@ -61,7 +66,18 @@ const Home: React.FC = () => {
         </div>
       </section> */}
       <Carousel />
-      <FAQ />
+      <div className="bg-gray-900 text-white min-h-screen">
+        <div className="container mx-auto py-10">
+          <h1 className="text-4xl text-center font-extrabold mb-10">StableBase Overview</h1>
+
+          <WhatSection />
+          <WhySection />
+          <HowSection />
+          <TeamSection />
+          <TimelineSection />
+        </div>
+      </div>
+      {/* <FAQ /> */}
       <Footer />
     </>
   );
