@@ -68,7 +68,7 @@ const Header: React.FC = () => {
                         alt="Logo"
                         className="h-10 w-10 mr-3"
                     />
-                    <h1 className="text-2xl font-bold text-gray-800">My Website</h1>
+                    <h1 className="text-2xl font-bold text-gray-800">Stablebase Protocol</h1>
                 </div>
                 <nav className="hidden md:flex md:space-x-4 lg:space-x-8">
                     <ul className="flex gap-3 lg:gap-5 xl:gap-10">

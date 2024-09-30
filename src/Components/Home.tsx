@@ -1,13 +1,32 @@
 import React from 'react';
-import LiquityFeatures from './LiquityFeatures';
+import Carousel from './Carousel';
 import FAQ from './FAQ';
 import Footer from './Footer';
-import ProtocolUpdates from './ProtocolUpdates';
 
 const Home: React.FC = () => {
   return (
     <>
-      <section className="bg-gradient-to-r from-blue-600 to-teal-600 py-12 md:py-24">
+      <section className="flex flex-col gap-8 mx-auto justify-center md:flex-row items-center p-6 bg-gradient-to-r from-blue-600 to-teal-600">
+        <div className="flex flex-col gap-4 text-center md:text-left mx-auto">
+          <h1 className="text-4xl md:text-6xl font-black text-white">STABLEBASE</h1>
+          <h2 className="md:text-lg text-gray-200">Empowering You to Control Your Financial Future</h2>
+          <div>
+          <button className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-lg shadow-lg hover:bg-blue-500 hover:text-white transition duration-300 ease-in-out">
+            Get started for free
+          </button>
+          </div>
+        </div>
+        <div className="flex mx-auto">
+          <img
+            src="https://via.placeholder.com/400"
+            alt="Logo"
+            className="shadow-md rounded-lg"
+          />
+        </div>
+      </section>
+
+
+      {/* <section className="bg-gradient-to-r from-blue-600 to-teal-600 py-12 md:py-24">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-3xl mx-auto space-y-6 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white tracking-wide">
@@ -40,10 +59,9 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
-      <LiquityFeatures />
+      </section> */}
+      <Carousel />
       <FAQ />
-      <ProtocolUpdates />
       <Footer />
     </>
   );
