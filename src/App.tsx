@@ -6,14 +6,15 @@ import Header from './Components/Header';
 
 function App() {
   return (
-    <>
+    <div className='bg-black text-white'>
       <Header />
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 

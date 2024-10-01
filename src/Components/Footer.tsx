@@ -1,106 +1,64 @@
 import React from 'react';
+import logo from "../assets/photos/logo.jpeg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter, faGithub, faDiscord, faSquareYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons'; // Added faSquareYoutube
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row md:justify-between">
-          <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold mb-2">StableBase</h2>
-            <p className="text-gray-400">
-              A base layer stablecoin protocol with 0% interest rate, enabling
-              higher layer innovation in yield and rates.
+    <footer className="bg-gray-900 text-white py-10">
+      <div className="container mx-auto px-6 md:px-12 lg:px-24">
+        {/* Logo and Info */}
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-8">
+          {/* Logo and Heading */}
+          <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
+            <img src={logo} alt="StableBase Logo" className="w-20 h-20 object-cover rounded-full border-2 border-blue-500" />
+            <div className="text-center md:text-left">
+              <h1 className="text-3xl font-bold text-white">StableBase</h1>
+              <p className="text-sm text-gray-400 mt-2">Decentralized Stablecoin Solutions</p>
+            </div>
+          </div>
+
+          {/* Info Text */}
+          <div className="mt-6 md:mt-0 max-w-lg text-gray-400 text-center md:text-left leading-relaxed">
+            <p>
+              StableBase is a next-generation stablecoin protocol enabling seamless decentralized financial solutions.
+              Built to provide stability in an ever-evolving digital economy, with user-focused integration.
             </p>
           </div>
-          <div className="flex flex-col md:flex-row md:gap-12">
-            <div className="mb-6 md:mb-0">
-              <h3 className="text-xl font-semibold mb-2">For Developers</h3>
-              <ul className="text-gray-400">
-                <li className="mb-1">
-                  <a href="#codebase" className="hover:underline">
-                    Code base
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a href="#technicalresources" className="hover:underline">
-                    Technical Resources
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a href="#sdk" className="hover:underline">
-                    SDK
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a href="#bugbounty" className="hover:underline">
-                    Bug Bounty
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="mb-6 md:mb-0">
-              <h3 className="text-xl font-semibold mb-2">Company</h3>
-              <ul className="text-gray-400">
-                <li className="mb-1">
-                  <a href="#contactus" className="hover:underline">
-                    Contact us
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a href="#presskit" className="hover:underline">
-                    Press kit
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a href="#blog" className="hover:underline">
-                    Blog
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a href="#chickenbonds" className="hover:underline">
-                    Chicken Bonds
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold mb-2">Resources</h3>
-              <ul className="text-gray-400">
-                <li className="mb-1">
-                  <a href="#whitepaper" className="hover:underline">
-                    Whitepaper
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a href="#docs" className="hover:underline">
-                    Documentation
-                  </a>
-                </li>
-                <li className="mb-1">
-                  <a href="#governance" className="hover:underline">
-                    Governance
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-        <div className="flex flex-col md:flex-row md:justify-between items-center mt-8 border-t border-gray-700 pt-4 text-center text-gray-500">
-          <div>
+
+        {/* Social Links */}
+        <div className="flex justify-center md:justify-end space-x-8 mb-6">
+          <a href="https://twitter.com/StableBase" className="text-gray-400 hover:text-blue-500 transition duration-300">
+            <FontAwesomeIcon icon={faTwitter} size="2x" />
+          </a>
+          <a href="https://github.com/StableBase" className="text-gray-400 hover:text-gray-200 transition duration-300">
+            <FontAwesomeIcon icon={faGithub} size="2x" />
+          </a>
+          <a href="https://discord.com/invite/StableBase" className="text-gray-400 hover:text-indigo-500 transition duration-300">
+            <FontAwesomeIcon icon={faDiscord} size="2x" />
+          </a>
+          <a href="https://youtube.com/StableBase" className="text-gray-400 hover:text-red-500 transition duration-300">
+            <FontAwesomeIcon icon={faSquareYoutube} size="2x" />
+          </a>
+          <a href="https://instagram.com/StableBase" className="text-gray-400 hover:text-violet-500 transition duration-300">
+            <FontAwesomeIcon icon={faInstagram} size="2x" />
+          </a>
+        </div>
+
+
+        {/* Divider Line */}
+        <hr className="border-gray-700 mb-6" />
+
+        {/* Copyright and Links */}
+        <div className="flex flex-col md:flex-row justify-between items-center text-gray-500">
+          <div className="mb-4 md:mb-0 text-center md:text-left">
             &copy; {new Date().getFullYear()} StableBase. All rights reserved.
           </div>
-          <div className="flex space-x-4">
-            <a href="https://twitter.com/StableBase" className="text-gray-400 hover:text-white">
-              <FontAwesomeIcon icon={faTwitter} size="lg" />
-            </a>
-            <a href="https://github.com/StableBase" className="text-gray-400 hover:text-white">
-              <FontAwesomeIcon icon={faGithub} size="lg" />
-            </a>
-            <a href="https://discord.com/invite/StableBase" className="text-gray-400 hover:text-white">
-              <FontAwesomeIcon icon={faDiscord} size="lg" />
-            </a>
+          <div className="text-center">
+            <a href="#" className="hover:underline text-gray-400">Privacy Policy</a> |
+            <a href="#" className="hover:underline text-gray-400 mx-2">Terms of Service</a> |
+            <a href="#" className="hover:underline text-gray-400 ml-2">Contact Us</a>
           </div>
         </div>
       </div>
