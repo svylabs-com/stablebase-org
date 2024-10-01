@@ -5,8 +5,8 @@ import How from './Overview/How';
 import ExpertTeam from "./ExpertTeam";
 import Timeline from "./Timeline";
 import Footer from './Footer';
-import universe from "../assets/photos/hero.jpeg";
-import imageBlob from "../assets/photos/blobImage.png"
+import universe from "../assets/svg/future2.svg";
+import coin from "../assets/svg/coin.svg"
 
 const Home: React.FC = () => {
   return (
@@ -25,13 +25,7 @@ const Home: React.FC = () => {
           </div>
         </div>
         <div className="flex justify-center md:justify-end mx-auto">
-          <object
-            data="https://141b7c150b00f338e700fb1580e57ed6.cdn.bubble.io/f1727093355139x847709677085598700/coin.svg"
-            type="image/svg+xml"
-            className="shadow-md w-72 h-w-72 md:w-[100%] md:h-[100%]"
-          >
-            Your browser does not support SVG
-          </object>
+          <img src={coin} alt='coin' className="shadow-md w-72 h-w-72 md:w-[100%] md:h-[100%]"></img>
         </div>
       </section>
       <What />
