@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from "react-router-dom";
-import { BrowserRouter as Router } from "react-router-dom";
 import logo from "../assets/photos/logo.jpeg";
 
 const Header: React.FC = () => {
@@ -35,13 +34,10 @@ const Header: React.FC = () => {
 
     return (
         <header className="shadow-md sticky top-0 z-50 p-4 md:px-6 lg:px-10 flex justify-between items-center">
-            <Router>
-                <Link to="/" className="flex items-center">
-                    <img src={logo} alt="Logo" className="h-12 w-12 mr-3 rounded-full" />
-                    <h4 className="text-2xl font-bold">Stablebase Protocol</h4>
-                </Link>
-            </Router>
-
+            <Link to="/" className="flex items-center">
+                <img src={logo} alt="Logo" className="h-12 w-12 mr-3 rounded-full" />
+                <h4 className="text-2xl font-bold">Stablebase Protocol</h4>
+            </Link>
 
             <nav className="hidden md:flex items-center">
                 <ul className='flex gap-5 lg:gap-8 items-center'>
@@ -64,7 +60,8 @@ const Header: React.FC = () => {
                         <span className="absolute left-0 bottom-[-2px] w-0 h-0.5 bg-orange-500 group-hover:w-full transition-all duration-300"></span>
                     </li>
                     <li>
-                        <button className="px-6 py-2 border-2 border-violet-600 text-gray-300 lg:font-semibold rounded-3xl shadow-lg hover:bg-violet-700 hover:border-violet-300 hover:text-white transition duration-300 ease-in-out">
+                        <button onClick={() => { window.location.href = '/get-involved'; }}
+                            className="px-6 py-2 border-2 border-violet-600 text-gray-300 lg:font-semibold rounded-3xl shadow-lg hover:bg-violet-700 hover:border-violet-300 hover:text-white transition duration-300 ease-in-out">
                             Get Involved
                         </button>
                     </li>

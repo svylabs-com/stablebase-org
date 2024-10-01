@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "../assets/photos/logo.jpeg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faGithub, faDiscord, faSquareYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons'; // Added faSquareYoutube
+import { faTwitter, faGithub, faDiscord, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Footer: React.FC = () => {
   return (
@@ -29,22 +29,23 @@ const Footer: React.FC = () => {
 
         {/* Social Links */}
         <div className="flex justify-center md:justify-end space-x-8 mb-6">
-          <a href="https://twitter.com/StableBase" className="text-gray-400 hover:text-blue-500 transition duration-300">
+          <a href="https://twitter.com/StableBase" className="text-gray-400 hover:text-blue-600 transition duration-300">
             <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
-          <a href="https://github.com/StableBase" className="text-gray-400 hover:text-gray-200 transition duration-300">
+          <a href="https://github.com/StableBase" className="text-gray-400 hover:text-gray-500 transition duration-300">
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
-          <a href="https://discord.com/invite/StableBase" className="text-gray-400 hover:text-indigo-500 transition duration-300">
+          <a href="https://discord.com/invite/StableBase" className="text-gray-400 hover:text-indigo-600 transition duration-300">
             <FontAwesomeIcon icon={faDiscord} size="2x" />
           </a>
-          <a href="https://youtube.com/StableBase" className="text-gray-400 hover:text-red-500 transition duration-300">
-            <FontAwesomeIcon icon={faSquareYoutube} size="2x" />
+          <a href="https://youtube.com/StableBase" className="text-gray-400 hover:text-red-600 transition duration-300">
+            <FontAwesomeIcon icon={faYoutube} size="2x" />
           </a>
-          <a href="https://instagram.com/StableBase" className="text-gray-400 hover:text-violet-500 transition duration-300">
+          <a href="https://instagram.com/StableBase" className="text-gray-400 hover:text-pink-600 transition duration-300">
             <FontAwesomeIcon icon={faInstagram} size="2x" />
           </a>
         </div>
+
 
 
         {/* Divider Line */}
