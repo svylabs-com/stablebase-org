@@ -3,44 +3,60 @@ import React from 'react';
 const Timeline: React.FC = () => {
     const timelineItems = [
         {
-            date: 'January 2024',
-            content: 'Started working on the project and set initial goals.',
+            date: 'September - November 2023',
+            content: 'Researched on existing protocols, gaps identified',
         },
         {
-            date: 'February 2024',
-            content: 'Conducted market research and gathered feedback.',
+            date: 'December 2023',
+            content: 'Came up with the concept of user-defined origination fees',
         },
         {
-            date: 'March 2024',
-            content: 'Completed the first phase of development.',
+            date: 'December 2023 - February 2024',
+            content: 'Early prototypes with user-defined origination fees',
         },
         {
-            date: 'April 2024',
-            content: 'Introduced new features based on user feedback.',
+            date: 'March-April 2024',
+            content: 'Unsatisfied with the protocol, went back to the drawing board',
         },
         {
             date: 'May 2024',
-            content: 'Finalized the product design and user interface.',
+            content: 'Introduced the concept of reserve ratio',
         },
         {
             date: 'June 2024',
-            content: 'Launched the beta version for testing.',
+            content: 'Redemption protection finalized',
+        },
+        {
+            date: 'June - October 2024',
+            content: 'Code, Test, Repeat',
         },
         {
             date: 'July 2024',
-            content: 'Gathered user feedback and iterated on features.',
-        },
-        {
-            date: 'August 2024',
-            content: 'Enhanced performance and fixed bugs from beta.',
+            content: 'Protocol Advisor onboarded',
         },
         {
             date: 'September 2024',
-            content: 'Received user feedback and made improvements.',
+            content: 'Whitepaper draft released',
         },
         {
             date: 'October 2024',
-            content: 'Officially launched the product to the public.',
+            content: 'Alpha Launch',
+        },
+        {
+            date: 'October 2024',
+            content: 'Bootstrap ecosystem',
+        },
+        {
+            date: 'December 2024',
+            content: 'Beta Launch in testnet'
+        },
+        {
+            date: 'Q1 2025',
+            content: 'Security Audit',
+        },
+        {
+            date: 'April 2025',
+            content: 'Launch on Mainnet',
         },
     ];
 

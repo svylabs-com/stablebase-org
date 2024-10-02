@@ -12,18 +12,26 @@ const Why: React.FC = () => {
             <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
                 {/* Left Side Content for Desktop */}
                 <div className="hidden lg:block w-full lg:w-1/2 lg:pr-10">
-                    <h2 className="text-lg md:text-3xl font-semibold mb-4">
+                    <h2 className="text-lg md:text-3xl font-semibold mb-4  text-violet-600">
                         Motivation
                     </h2>
+                    <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
+                        Prohibitive Fees
+                    </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
                         Many protocols have interest rates or fees that are prohibitive for real world usecases, preventing adoption of decentralized stablecoins.
                     </p>
+                    <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
+                        One size fits all approach
+                    </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
                         Existing stablecoin protocols are often implemented as a one size fits all approach(eg: interest rate). This can lead to inefficiencies and high costs for users.
                     </p>
+                    <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
+                        No innovation in primitives
+                    </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
                         Existing stablecoin protocols use standard primitives, like interest rate or origination fee to incentivize / disincentivize borrowing. There has been no experimentation with alternative mechanisms. Traditional Finance has several primitives that haven't been tried before in a borrowing protocol. For example: In Islamic Finance, there is no concept of an interest rate. And, traditional finance also offers tools like Reserve Ratio, which can be used to contract / expand money supply.
-                        After all, the goal is to keep the price stable.
                     </p>
                 </div>
 
@@ -38,15 +46,24 @@ const Why: React.FC = () => {
                     {/* Overlay Content for mobile */}
                     <div className="absolute inset-0 bg-black bg-opacity-50 lg:hidden overflow-y-auto max-h-full p-6 flex flex-col justify-center items-center text-center">
                         <div className="overflow-y-auto max-h-[80vh] w-full">
-                            <h2 className="text-lg md:text-3xl font-semibold mb-4 text-white">
+                            <h2 className="text-lg md:text-3xl font-semibold mb-4 text-violet-600">
                             Motivation
                             </h2>
+                            <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
+                                Prohibitive Fees
+                            </h4>
                             <p className="text-base lg:text-lg leading-relaxed mb-4">
                                 Many protocols have interest rates or fees that are prohibitive for real world usecases, preventing adoption of decentralized stablecoins.
                             </p>
+                            <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
+                                One size fits all approach
+                            </h4>
                             <p className="text-base lg:text-lg leading-relaxed mb-4">
                                 Existing stablecoin protocols are often implemented as a one size fits all approach(eg: interest rate). This can lead to inefficiencies and high costs for users.
                             </p>
+                            <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
+                                No innovation in primitives
+                            </h4>
                             <p className="text-base lg:text-lg leading-relaxed mb-4">
                                 Existing stablecoin protocols use standard primitives, like interest rate or origination fee to incentivize / disincentivize borrowing. There has been no experimentation with alternative mechanisms. Traditional Finance has several primitives that haven't been tried before in a borrowing protocol. For example: In Islamic Finance, there is no concept of an interest rate. And, traditional finance also offers tools like Reserve Ratio, which can be used to contract / expand money supply.
                                 After all, the goal is to keep the price stable.

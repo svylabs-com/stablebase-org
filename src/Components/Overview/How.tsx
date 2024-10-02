@@ -21,19 +21,26 @@ const How: React.FC = () => {
                     {/* Overlay Content for mobile */}
                     <div className="absolute inset-0 bg-black bg-opacity-50 lg:hidden overflow-y-auto max-h-full p-6 flex flex-col justify-center items-center text-center">
                         <div className="overflow-y-auto max-h-[80vh] w-full">
-                            <h2 className="text-lg md:text-3xl font-semibold mb-4 text-white">
-                                Key Features
+                            <h2 className="text-lg md:text-3xl font-semibold mb-4 text-violet-600">
+                                Key Innovations
                             </h2>
+                            <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
+                            Decentralized Rate Governors
+                                </h4>
                             <p className="text-base leading-relaxed mb-4 text-white">
-                                The Stablebase Protocol is designed with a robust decentralized infrastructure
-                                that ensures security, transparency, and efficiency. By leveraging blockchain
-                                technology and smart contracts, we eliminate intermediaries and central points
-                                of failure.
+                            Rate governors are also borrowers of the protocol and borrow at 0% rates. Anyone can become a rate governor by locking up a certain percentage(reserve ratio) of the borrowed stablecoins into the reserve pool. The rate governors additionally set the shielding rate for the protocol. Rate Governors participate in the stability of the protocol by setting reserve ratio, and shielding rates. Thus they are at high risk of redemptions and they need to actively manage their positions.
+                            </p>
+                            <p className="text-base leading-relaxed mb-4 text-violet-300">
+                                Redemption Protection
                             </p>
                             <p className="text-base leading-relaxed mb-4 text-white">
-                                The system uses a decentralized oracle mechanism to ensure real-time, accurate
-                                asset pricing. This mechanism ensures fair collateralization and borrowing
-                                conditions, making the protocol resilient against manipulation and external shocks.
+                                Users that do not want to be a rate governor, could pay a shielding rate, and their collateral is protected from redemptions pro-rata based on the shielding fee paid.
+                            </p>
+                            <p className="text-base leading-relaxed mb-4 text-violet-300">
+                                Yield
+                            </p>
+                            <p className="text-base leading-relaxed mb-4 text-white">
+                            The protocol is equiped with two pools- the reserve pool and stability pool. The fee paid for shielding is distributed participants in these pools.
                             </p>
                         </div>
                     </div>
@@ -41,24 +48,26 @@ const How: React.FC = () => {
 
                 {/* Right Side Content for Desktop */}
                 <div className="hidden lg:block lg:w-1/2 lg:pl-10">
-                    <h2 className="text-3xl font-semibold mb-4">
-                        Key Features
+                    <h2 className="text-3xl font-semibold mb-4 text-violet-600">
+                        Key Innovations
                     </h2>
+                    <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
+                        Decentralized Rate Governors
+                    </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        We are building the Stablebase Protocol using secure, decentralized smart contracts on
-                        the Ethereum blockchain. By utilizing smart contracts, we remove the need for traditional
-                        financial intermediaries, allowing users to have full control over their assets without
-                        relying on third-party custodians.
+                        Rate governors are also borrowers of the protocol and borrow at 0% rates. Anyone can become a rate governor by locking up a certain percentage(reserve ratio) of the borrowed stablecoins into the reserve pool. The rate governors additionally set the shielding rate for the protocol. Rate Governors participate in the stability of the protocol by setting reserve ratio, and shielding rates. Thus they are at high risk of redemptions and they need to actively manage their positions.
                     </p>
+                    <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
+                         Redemption Protection
+                    </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        To maintain real-time pricing accuracy for all supported assets, we are integrating a
-                        decentralized oracle system. This ensures that asset prices used for collateralization
-                        and borrowing are always up-to-date, transparent, and immune to manipulation.
+                        Users that do not want to be a rate governor, could pay a shielding rate, and their collateral is protected from redemptions pro-rata based on the shielding fee paid.
                     </p>
+                    <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
+                         Yield
+                    </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Additionally, we are prioritizing security in all aspects of our protocol, conducting
-                        regular audits, and using well-established security practices to safeguard user assets
-                        and maintain the integrity of the system.
+                        The protocol is equiped with two pools- the reserve pool and stability pool. The fee paid for shielding is distributed participants in these pools.
                     </p>
                 </div>
             </div>

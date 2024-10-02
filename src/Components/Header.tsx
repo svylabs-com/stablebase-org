@@ -101,7 +101,7 @@ const Header: React.FC = () => {
                         Team
                     </a>
                     */}
-                    <a href="#docs" className="text-gray-300 hover:text-violet-500 font-medium w-full">
+                    <a href="https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.pdf" className="text-gray-300 hover:text-violet-500 font-medium w-full">
                         Docs
                     </a>
                     <button className="w-full px-6 py-2 border-2 border-violet-600 text-gray-300 font-semibold rounded-3xl shadow-lg hover:bg-violet-700 hover:border-violet-300 hover:text-white transition duration-300 ease-in-out">
