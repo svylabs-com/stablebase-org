@@ -5,7 +5,7 @@ import Why from './Overview/Why';
 import How from './Overview/How';
 import ExpertTeam from "./ExpertTeam";
 import Timeline from "./Timeline";
-import ContactUs from './ContactUs';
+// import ContactUs from './ContactUs';
 import Footer from './Footer';
 import universe from "../assets/svg/future2.svg";
 import coin from "../assets/svg/coin.svg";
@@ -37,7 +37,7 @@ const Home: React.FC = () => {
       <How />
       <ExpertTeam />
       <Timeline />
-      <ContactUs />
+      {/* <ContactUs /> */}
       <Footer />
     </>
   );
