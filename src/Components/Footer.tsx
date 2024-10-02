@@ -14,15 +14,14 @@ const Footer: React.FC = () => {
             <img src={logo} alt="StableBase Logo" className="w-20 h-20 object-cover rounded-full border-2 border-blue-500" />
             <div className="text-center md:text-left">
               <h1 className="text-3xl font-bold text-white">StableBase</h1>
-              <p className="text-sm text-gray-400 mt-2">Decentralized Stablecoin Solutions</p>
+              <p className="text-sm text-gray-400 mt-2">Open source stablecoin protocol</p>
             </div>
           </div>
 
           {/* Info Text */}
           <div className="mt-6 md:mt-0 max-w-lg text-gray-400 text-center md:text-left leading-relaxed">
             <p>
-              StableBase is a next-generation stablecoin protocol enabling seamless decentralized financial solutions.
-              Built to provide stability in an ever-evolving digital economy, with user-focused integration.
+              StableBase is an open source, innovative market-driven protocol for minting stablecoins with unique stability mechanism and provides flexibile and predictable borrowing experience.
             </p>
           </div>
         </div>
