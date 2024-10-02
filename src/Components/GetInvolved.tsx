@@ -17,7 +17,7 @@ const GetInvolved: React.FC = () => {
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-semibold text-violet-500 mb-4">Why Get Involved?</h2>
           <p className="text-gray-400 mb-6">
-            Stablebase is transforming decentralized finance (DeFi) by offering a stable, 0% interest stablecoin protocol that empowers users, liquidity providers, developers, and investors. By getting involved, you contribute to the future of a more decentralized and secure financial ecosystem.
+            Be a part of the stablecoin project that is being built from the ground up, with a focus on immutability and decentralization. There are several ways you can get involved in our ecosystem.
           </p>
         </div>
 
@@ -30,16 +30,16 @@ const GetInvolved: React.FC = () => {
               User
             </h2>
             <div>
-              <h3 className="text-xl font-semibold">Borrow</h3>
-              <p className="text-gray-400">Users can borrow stablecoins by providing collateral in the form of ETH or ERC-20 tokens. Ensure sufficient collateralization to avoid liquidation.</p>
+              <h3 className="text-xl font-semibold">Join our community</h3>
+              <p className="text-gray-400">Join our community on twitter, discord, telegram etc, and ask questions, provide feedback, etc.</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold">Redeem</h3>
-              <p className="text-gray-400">Redeem your stablecoins by returning the borrowed amount and withdrawing your collateral. Check current exchange rates for accuracy.</p>
+              <h3 className="text-xl font-semibold">Participate in testnet and Earn Rewards</h3>
+              <p className="text-gray-400">Users can participate in testnet so that we can finetune our systems, while earning rewards for participation</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold">Liquidate</h3>
-              <p className="text-gray-400">Participate in liquidation events when under-collateralized positions become eligible for liquidation. Secure assets at discounted prices.</p>
+              <h3 className="text-xl font-semibold">Provide Liquidity and earn rewards after Launch</h3>
+              <p className="text-gray-400">You can borrow in mainnet after launch, or provide liquidity in stability pool and earn rewards from protocol fees.</p>
             </div>
           </div>
 
@@ -47,15 +47,23 @@ const GetInvolved: React.FC = () => {
           <div className="space-y-4 p-4 border border-gray-700 rounded-lg">
             <h2 className="text-2xl font-semibold flex items-center">
               <FontAwesomeIcon icon={faWallet} className="text-violet-500 text-3xl mr-4" />
-              Liquidity Providers
+              Rate Governors
             </h2>
             <div>
-              <h3 className="text-xl font-semibold">Market Makers</h3>
-              <p className="text-gray-400">Provide liquidity on various exchanges by making markets for Stablebase tokens, ensuring stability and liquidity in the ecosystem.</p>
+              <h3 className="text-xl font-semibold">Participate in testnet</h3>
+              <p className="text-gray-400">As you will have a real skin in the game in the stablebase ecosystem by setting parameters like target rate, reserve ratio and maintaining the stability of the system, testnet participation is crucial to fine tune your algorithms, software that automates the process.</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold">Hedge Funds</h3>
-              <p className="text-gray-400">Leverage the Stablebase Protocol for arbitrage and hedging strategies. Learn how to maximize returns while providing liquidity in key markets.</p>
+              <h3 className="text-xl font-semibold">Earn Testnet Rewards</h3>
+              <p className="text-gray-400">Earn Rewards for particpating in testnet that can be converted to mainnet tokens at launch</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Become a rate governor at Launch</h3>
+              <p className="text-gray-400">Put your automated system to use as you borrow from the protocol and set the rates for the system.</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Earn from fee paid</h3>
+              <p className="text-gray-400">As a rate governor, protocol provides an amplified yield opportunity from the fee paid to the protocol</p>
             </div>
           </div>
 
@@ -66,18 +74,25 @@ const GetInvolved: React.FC = () => {
               Developer
             </h2>
             <div>
-              <h3 className="text-xl font-semibold">Github Link</h3>
-              <a href="https://github.com/rohitbharti279" className="text-gray-400 hover:text-violet-500 transition duration-300">
+              <h3 className="text-xl font-semibold">Contribute / Review code</h3>
+              <a href="https://github.com/svylabs/stablebase" className="text-gray-400 hover:text-violet-500 transition duration-300">
                 Visit our Github
               </a>
               <p className="text-gray-400 mt-2">Contribute to the Stablebase codebase, improve smart contracts, and explore our open-source projects. We welcome pull requests and feature suggestions!</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold">Whitepaper</h3>
+              <h3 className="text-xl font-semibold">Contribute to the protocol</h3>
               <a href="https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.pdf" className="text-gray-400 hover:text-violet-500 transition duration-300">
                 Read our Whitepaper
               </a>
-              <p className="text-gray-400 mt-2">Deep dive into the technology and economics behind Stablebase. Our whitepaper outlines how we aim to stabilize the DeFi ecosystem.</p>
+              <p className="text-gray-400 mt-2">Deep dive into the technology and economics behind Stablebase. Our whitepaper outlines how the protocol works</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Earn rewards</h3>
+              <a href="https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.pdf" className="text-gray-400 hover:text-violet-500 transition duration-300">
+                Earn rewards for contributing to the protocol
+              </a>
+              <p className="text-gray-400 mt-2"></p>
             </div>
           </div>
 
@@ -88,12 +103,12 @@ const GetInvolved: React.FC = () => {
               Investors
             </h2>
             <div>
-              <h3 className="text-xl font-semibold">Funding</h3>
+              <h3 className="text-xl font-semibold">Invest</h3>
               <p className="text-gray-400">We are actively seeking investors to fund the development and expansion of the Stablebase Protocol. If you are interested in supporting the future of decentralized finance, get in touch.</p>
             </div>
           </div>
 
-          {/* Partners Section */}
+          {/* 
           <div className="space-y-4 p-4 border border-gray-700 rounded-lg">
             <h2 className="text-2xl font-semibold flex items-center">
               <FontAwesomeIcon icon={faHandshake} className="text-violet-500 text-3xl mr-4" />
@@ -102,6 +117,7 @@ const GetInvolved: React.FC = () => {
             <p className="text-gray-400">Stablebase is proud to partner with industry leaders to drive innovation and growth in the DeFi space. Our partners play a crucial role in expanding our ecosystem and providing greater stability.</p>
             <p className="text-gray-400">Interested in partnering with us? <a href="#" className="text-violet-500 hover:underline">Contact us</a> to learn more.</p>
           </div>
+          */}
         </div>
       </div>
     </div>
