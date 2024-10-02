@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.776ebd01.css",
-    "main.js": "/static/js/main.e1d77807.js",
-    "static/js/453.a43f6414.chunk.js": "/static/js/453.a43f6414.chunk.js",
-    "static/media/coin.svg": "/static/media/coin.1cf3f025f76b2a712c489257b33cc5cc.svg",
-    "static/media/protocol-how.png": "/static/media/protocol-how.f53dc5348b8e781eded2.png",
-    "static/media/future2.svg": "/static/media/future2.2c8af36b4bff804626d689e48ddcc9a8.svg",
-    "static/media/rohit.jpg": "/static/media/rohit.b48fc6eefa16bd6c8363.jpg",
-    "static/media/sridhar.jpeg": "/static/media/sridhar.0f88d01bba2539ee4dba.jpeg",
-    "static/media/protocol.png": "/static/media/protocol.786cd9208c2d9e53cedf.png",
-    "static/media/prajna.png": "/static/media/prajna.22d4a204c72b311c1b2e.png",
-    "static/media/logo.jpeg": "/static/media/logo.d5f5f64a3f7046dd2788.jpeg",
-    "static/media/github-brands-solid.svg": "/static/media/github-brands-solid.8bbb8f09b1a2192f49f044af8350c909.svg",
-    "static/media/twitter-brands-solid.svg": "/static/media/twitter-brands-solid.642c974d31c5246609a71d6c3e4d7067.svg",
-    "static/media/linkedin-brands-solid.svg": "/static/media/linkedin-brands-solid.633a312873229ec1d806b66f9d770fb7.svg",
-    "index.html": "/index.html",
-    "main.776ebd01.css.map": "/static/css/main.776ebd01.css.map",
-    "main.e1d77807.js.map": "/static/js/main.e1d77807.js.map",
-    "453.a43f6414.chunk.js.map": "/static/js/453.a43f6414.chunk.js.map"
+    "main.css": "/stablebase-org/static/css/main.776ebd01.css",
+    "main.js": "/stablebase-org/static/js/main.63b0c7dd.js",
+    "static/js/453.a43f6414.chunk.js": "/stablebase-org/static/js/453.a43f6414.chunk.js",
+    "static/media/coin.svg": "/stablebase-org/static/media/coin.1cf3f025f76b2a712c489257b33cc5cc.svg",
+    "static/media/protocol-how.png": "/stablebase-org/static/media/protocol-how.f53dc5348b8e781eded2.png",
+    "static/media/future2.svg": "/stablebase-org/static/media/future2.2c8af36b4bff804626d689e48ddcc9a8.svg",
+    "static/media/rohit.jpg": "/stablebase-org/static/media/rohit.b48fc6eefa16bd6c8363.jpg",
+    "static/media/sridhar.jpeg": "/stablebase-org/static/media/sridhar.0f88d01bba2539ee4dba.jpeg",
+    "static/media/protocol.png": "/stablebase-org/static/media/protocol.786cd9208c2d9e53cedf.png",
+    "static/media/prajna.png": "/stablebase-org/static/media/prajna.22d4a204c72b311c1b2e.png",
+    "static/media/logo.jpeg": "/stablebase-org/static/media/logo.d5f5f64a3f7046dd2788.jpeg",
+    "static/media/github-brands-solid.svg": "/stablebase-org/static/media/github-brands-solid.8bbb8f09b1a2192f49f044af8350c909.svg",
+    "static/media/twitter-brands-solid.svg": "/stablebase-org/static/media/twitter-brands-solid.642c974d31c5246609a71d6c3e4d7067.svg",
+    "index.html": "/stablebase-org/index.html",
+    "static/media/linkedin-brands-solid.svg": "/stablebase-org/static/media/linkedin-brands-solid.633a312873229ec1d806b66f9d770fb7.svg",
+    "main.776ebd01.css.map": "/stablebase-org/static/css/main.776ebd01.css.map",
+    "main.63b0c7dd.js.map": "/stablebase-org/static/js/main.63b0c7dd.js.map",
+    "453.a43f6414.chunk.js.map": "/stablebase-org/static/js/453.a43f6414.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.776ebd01.css",
-    "static/js/main.e1d77807.js"
+    "static/js/main.63b0c7dd.js"
   ]
 }
