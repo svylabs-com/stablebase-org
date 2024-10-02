@@ -1,4 +1,5 @@
 import React from 'react';
+import Motivation from './Motivation';
 import What from './Overview/What';
 import Why from './Overview/Why';
 import How from './Overview/How';
@@ -29,6 +30,7 @@ const Home: React.FC = () => {
           <img src={coin} alt='coin' className="shadow-md w-72 h-w-72 md:w-[100%] md:h-[100%]"></img>
         </div>
       </section>
+      <Motivation />
       <What />
       <Why />
       <How />
