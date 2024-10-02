@@ -2,7 +2,7 @@
   "name": "stable-base-coin",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://svylabs-com.github.io/stablebase-org",
+  "homepage": "https://svylabs-com.github.io/stablebase-org/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
