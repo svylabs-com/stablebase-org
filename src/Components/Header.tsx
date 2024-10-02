@@ -37,7 +37,7 @@ const Header: React.FC = () => {
             <Link to="/" className="flex items-center">
                 <img src={logo} alt="Logo" className="h-12 w-12 mr-3 rounded-full" />
                 {/* <h4 className="text-2xl font-bold">Stablebase</h4> */}
-                <h4 className="text-3xl italic font-bold bg-gradient-to-r from-violet-500 via-indigo-500 to-blue-500 text-transparent bg-clip-text">
+                <h4 className="text-3xl font-bold bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 text-transparent bg-clip-text">
                     Stablebase
                 </h4>
 
