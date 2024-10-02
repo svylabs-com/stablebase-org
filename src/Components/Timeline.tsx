@@ -49,7 +49,7 @@ const Timeline: React.FC = () => {
             <h2 className="text-center text-2xl font-bold mb-10">Project Timeline</h2>
             <div className="container mx-auto relative">
                 {/* Timeline vertical line */}
-                <div className="absolute w-1 bg-gray-700 h-full left-1/2 transform -translate-x-1/2"></div>
+                <div className="absolute w-1 bg-gray-700 h-full left-1/2 transform -translate-x-1/2 z-0"></div>
 
                 {/* Timeline items */}
                 {timelineItems.map((item, index) => (
@@ -59,7 +59,7 @@ const Timeline: React.FC = () => {
                             index % 2 === 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'
                         }`}
                     >
-                        <div className="lg:w-1/2 lg:px-10">
+                        <div className="lg:w-1/2 lg:px-10 z-10">
                             {/* Content block */}
                             <div
                                 className={`p-6 rounded-lg shadow-lg ${
@@ -72,7 +72,7 @@ const Timeline: React.FC = () => {
                         </div>
 
                         {/* Circle and line connector */}
-                        <div className="relative flex items-center justify-center h-full lg:w-1/12 lg:flex-none">
+                        <div className="relative flex items-center justify-center h-full lg:w-1/12 lg:flex-none z-10">
                             <div className="w-8 h-8 bg-white rounded-full z-10 border-4 border-black"></div>
                         </div>
 

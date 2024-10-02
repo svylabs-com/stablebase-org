@@ -15,12 +15,12 @@ const How: React.FC = () => {
                     <img
                         src={protocolImage}
                         alt="Protocol Overview"
-                        className="w-full h-full object-cover md:h-[30rem] lg:static lg:shadow-lg lg:rounded-md bg-black"
+                        className="w-full h-full object-cover opacity-40 md:h-[30rem] lg:static lg:shadow-lg lg:rounded-md bg-black lg:opacity-100"
                     />
 
                     {/* Overlay Content for mobile */}
                     <div className="absolute inset-0 bg-black bg-opacity-50 lg:hidden overflow-y-auto max-h-full p-6 flex flex-col justify-center items-center text-center">
-                        <div className="overflow-y-auto max-h-[80vh] w-full"> {/* Ensuring scrollable area */}
+                        <div className="overflow-y-auto max-h-[80vh] w-full">
                             <h2 className="text-lg md:text-3xl font-semibold mb-4 text-white">
                                 HOW WE ARE BUILDING
                             </h2>
