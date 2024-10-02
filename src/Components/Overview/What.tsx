@@ -4,7 +4,7 @@ import protocolImage from '../../assets/photos/protocol.png';
 const What: React.FC = () => {
     return (
         <section className="my-5 lg:px-10">
-            <h1 className="p-2 md:mb-5 md:py-4 font-bold text-2xl md:text-3xl lg:text-4xl px-4 md:px-6 lg:px-0 lg:mx-auto lg:flex items-center justify-center  text-violet-600">
+            <h1 className="p-2 md:mb-5 md:py-4 font-bold text-2xl md:text-3xl lg:text-4xl px-4 md:px-6 lg:px-0 lg:mx-auto lg:flex items-center justify-center  text-violet-500">
                 Protocol Overview
             </h1>
             <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
@@ -19,7 +19,7 @@ const What: React.FC = () => {
                     {/* Overlay Content for mobile */}
                     <div className="absolute inset-0 bg-black bg-opacity-50 lg:hidden overflow-y-auto max-h-full p-6 flex flex-col justify-center items-center text-center">
                         <div className="overflow-y-auto max-h-[80vh] w-full"> {/* Ensuring scrollable area */}
-                            <h2 className="text-lg md:text-3xl font-semibold mb-4  text-violet-600">
+                            <h2 className="text-lg md:text-3xl font-semibold mb-4  text-violet-500">
                                 {/* Stablebase Protocol Overview */}
                                 WHAT IS STABLEBASE
                             </h2>
@@ -49,7 +49,7 @@ const What: React.FC = () => {
 
                 {/* Right Side Content for Desktop */}
                 <div className="hidden lg:block lg:w-1/2 lg:pl-10">
-                    <h2 className="text-3xl font-semibold mb-4  text-violet-600" >
+                    <h2 className="text-3xl font-semibold mb-4  text-violet-500" >
                         WHAT IS STABLEBASE
                     </h2>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">

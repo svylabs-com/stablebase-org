@@ -4,7 +4,7 @@ const Motivation: React.FC = () => {
     return (
         <section className="bg-black text-white py-20 px-6">
             <div className="container mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold text-center mb-10  text-violet-600">Guiding Principles</h2>
+                <h2 className="text-3xl md:text-4xl font-bold text-center mb-10  text-violet-500">Guiding Principles</h2>
                 <p className="text-lg md:text-xl leading-relaxed mb-8 text-center">
                     
                 </p>

@@ -21,7 +21,7 @@ const How: React.FC = () => {
                     {/* Overlay Content for mobile */}
                     <div className="absolute inset-0 bg-black bg-opacity-50 lg:hidden overflow-y-auto max-h-full p-6 flex flex-col justify-center items-center text-center">
                         <div className="overflow-y-auto max-h-[80vh] w-full">
-                            <h2 className="text-lg md:text-3xl font-semibold mb-4 text-violet-600">
+                            <h2 className="text-lg md:text-3xl font-semibold mb-4 text-violet-500">
                                 Key Innovations
                             </h2>
                             <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
@@ -48,7 +48,7 @@ const How: React.FC = () => {
 
                 {/* Right Side Content for Desktop */}
                 <div className="hidden lg:block lg:w-1/2 lg:pl-10">
-                    <h2 className="text-3xl font-semibold mb-4 text-violet-600">
+                    <h2 className="text-3xl font-semibold mb-4 text-violet-500">
                         Key Innovations
                     </h2>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
