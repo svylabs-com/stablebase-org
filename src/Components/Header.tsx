@@ -36,12 +36,16 @@ const Header: React.FC = () => {
         <header className="shadow-md sticky top-0 z-50 p-4 md:px-6 lg:px-10 flex justify-between items-center">
             <Link to="/" className="flex items-center">
                 <img src={logo} alt="Logo" className="h-12 w-12 mr-3 rounded-full" />
-                <h4 className="text-2xl font-bold">Stablebase</h4>
+                {/* <h4 className="text-2xl font-bold">Stablebase</h4> */}
+                <h4 className="text-3xl italic font-bold bg-gradient-to-r from-violet-500 via-indigo-500 to-blue-500 text-transparent bg-clip-text">
+                    Stablebase
+                </h4>
+
             </Link>
 
             <nav className="hidden md:flex items-center">
                 <ul className='flex gap-5 lg:gap-8 items-center'>
-                   {/*
+                    {/*
                     <li className="group relative">
                         <a
                             href="#team"
