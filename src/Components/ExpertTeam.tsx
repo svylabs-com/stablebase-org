@@ -3,6 +3,7 @@ import murielImage from '../assets/clients-image/muriel.png';
 import johnImage from '../assets/clients-image/john.png';
 import clayImage from '../assets/clients-image/clay.png';
 import dougImage from '../assets/clients-image/doug.png';
+import rohitBharti from '../assets/clients-image/rohit-bharti.jpg';
 import googleIcon from "../assets/svg/google-brands-solid.svg";
 import instagramIcon from "../assets/svg/instagram-brands-solid.svg";
 import facebookIcon from "../assets/svg/facebook-brands-solid.svg";
@@ -29,7 +30,7 @@ const ExpertTeam: React.FC = () => {
         {
             name: 'Rohit Bharti',
             role: 'Full stack developer',
-            image: clayImage,
+            image: rohitBharti,
             linkedin: 'https://www.linkedin.com/in/rohit-bharti-b9a437211/',
             github: 'https://github.com/rohitbharti279',
             twitter: 'https://x.com/RohitBh44771576'
