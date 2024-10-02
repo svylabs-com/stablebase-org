@@ -14,15 +14,19 @@ const ExpertTeam: React.FC = () => {
             name: 'Sridhar',
             role: 'Founder & CEO',
             image: murielImage,
+            linkedin: 'https://www.linkedin.com/in/sridhar-g-b10902284/',
+            github: 'https://github.com/svylabs',
+            twitter: 'https://x.com/sginams'
         },
         {
             name: 'Gopalakrishnan',
             role: 'Advisor - Protocol',
             image: johnImage,
+            linkedin: 'https://www.linkedin.com/in/gopalakrishnan-ganesan-786618294/?originalSubdomain=in',
         },
         {
             name: 'Rohit Bharti',
-            role: 'Full stack Developer',
+            role: 'Full stack developer',
             image: clayImage,
         },
         {

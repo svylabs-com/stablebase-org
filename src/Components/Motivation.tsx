@@ -25,9 +25,9 @@ const Motivation: React.FC = () => {
                     </div>
                     {/* Card 3 */}
                     <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-                        <h3 className="text-2xl font-semibold mb-4">No Rent Seeking Tokens</h3>
+                        <h3 className="text-2xl font-semibold mb-4">Decentralized and Immutable</h3>
                         <p>
-                            The protocol issues stablecoin tokens, but does not have a governance or rent-seeking token that is used to extract fee paid from users.
+                            Protocol is designed to be decentralized and immutable once deployed, thus uses only the native assets of the blockchain.
                         </p>
                     </div>
                     {/* Card 4 */}
