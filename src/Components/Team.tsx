@@ -14,7 +14,7 @@ const ExpertTeam: React.FC = () => {
     const teamMembers = [
         {
             name: 'Sridhar',
-            role: 'Founder & CEO',
+            role: 'Founder, CEO & Developer',
             image: sridharImage,
             linkedin: 'https://www.linkedin.com/in/sridhar-g-b10902284/',
             github: 'https://github.com/svylabs',
@@ -44,7 +44,7 @@ const ExpertTeam: React.FC = () => {
     return (
         <section className="my-10 flex flex-col items-center m-3 mt-5 gap-3">
             <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl">
-                Our Team <span className="text-violet-600">Members</span>
+                Our <span className="text-violet-600">Team</span>
             </h2>
             <p className="text-center px-4 md:px-10 text-xs">
                 

@@ -51,7 +51,7 @@ const GetInvolved: React.FC = () => {
             </h2>
             <div>
               <h3 className="text-xl font-semibold">Participate in testnet</h3>
-              <p className="text-gray-400">As you will have a real skin in the game in the stablebase ecosystem by setting parameters like target rate, reserve ratio and maintaining the stability of the system, testnet participation is crucial to fine tune your algorithms, software that automates the process.</p>
+              <p className="text-gray-400">Anyone can become a rate governor by locking up tokens in reserve pool and as you will have a real skin in the game in the stablebase ecosystem by setting the protocol parameters like target rate, reserve ratio and maintaining the stability of the system, testnet participation is crucial to fine tune your algorithms, software that automates the process.</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold">Earn Testnet Rewards</h3>
@@ -78,7 +78,7 @@ const GetInvolved: React.FC = () => {
               <a href="https://github.com/svylabs/stablebase" className="text-gray-400 hover:text-violet-500 transition duration-300">
                 Visit our Github
               </a>
-              <p className="text-gray-400 mt-2">Contribute to the Stablebase codebase, improve smart contracts, and explore our open-source projects. We welcome pull requests and feature suggestions!</p>
+              <p className="text-gray-400 mt-2">Contribute to the Stablebase codebase, improve the contracts, and explore our other open-source projects. We welcome pull requests and feature suggestions!</p>
             </div>
             <div>
               <h3 className="text-xl font-semibold">Contribute to the protocol</h3>
@@ -104,7 +104,7 @@ const GetInvolved: React.FC = () => {
             </h2>
             <div>
               <h3 className="text-xl font-semibold">Invest</h3>
-              <p className="text-gray-400">We are actively seeking investors to fund the development and expansion of the Stablebase Protocol. If you are interested in supporting the future of decentralized finance, get in touch.</p>
+              <p className="text-gray-400">We are actively seeking investors to fund the development and expansion of the Stablebase Protocol. If you are interested in supporting a passionate team that wants to leave a mark in the DeFi segment, get in touch.</p>
             </div>
           </div>
 
