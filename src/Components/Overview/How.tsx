@@ -37,10 +37,10 @@ const How: React.FC = () => {
                                 Users that do not want to be a rate governor, could pay a shielding rate, and their collateral is protected from redemptions pro-rata based on the shielding fee paid.
                             </p>
                             <p className="text-base leading-relaxed mb-4 text-violet-300">
-                                Yield
+                                Yield for Participants
                             </p>
                             <p className="text-base leading-relaxed mb-4 text-white">
-                            The protocol is equiped with two pools- the reserve pool and stability pool. The fee paid for shielding is distributed participants in these pools.
+                            The protocol is equiped with two pools- the reserve pool and stability pool. The fee paid for shielding is distributed to participants in these pools.
                             </p>
                         </div>
                     </div>
@@ -64,10 +64,10 @@ const How: React.FC = () => {
                         Users that do not want to be a rate governor, could pay a shielding rate, and their collateral is protected from redemptions pro-rata based on the shielding fee paid.
                     </p>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
-                         Yield
+                         Yield for Participants
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        The protocol is equiped with two pools- the reserve pool and stability pool. The fee paid for shielding is distributed participants in these pools.
+                        The protocol is equiped with two pools- the reserve pool and stability pool. The fee paid for shielding is distributed to participants in these pools.
                     </p>
                 </div>
             </div>

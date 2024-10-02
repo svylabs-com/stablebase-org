@@ -25,13 +25,13 @@ const Why: React.FC = () => {
                         One size fits all approach
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Existing stablecoin protocols are often implemented as a one size fits all approach(eg: interest rate). This can lead to inefficiencies and high costs for users.
+                        Existing stablecoin protocols are often implemented as a one size fits all approach(example: setting a minimum interest rate, etc.). This can lead to inefficiencies and high costs for users.
                     </p>
                     <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
                         No innovation in primitives
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Existing stablecoin protocols use standard primitives, like interest rate or origination fee to incentivize / disincentivize borrowing. There has been no experimentation with alternative mechanisms. Traditional Finance has several primitives that haven't been tried before in a borrowing protocol. For example: In Islamic Finance, there is no concept of an interest rate. And, traditional finance also offers tools like Reserve Ratio, which can be used to contract / expand money supply.
+                        Existing stablecoin protocols use standard primitives, like interest rate or origination fee to incentivize / disincentivize borrowing. There has been no experimentation with alternative mechanisms. Traditional Finance has several primitives that haven't been tried before in a borrowing protocol. For example: In Islamic Finance, there is no concept of an interest rate. And, traditional finance also offers other tools like Reserve Ratio, which can be used to contract / expand money supply.
                     </p>
                 </div>
 
@@ -59,14 +59,13 @@ const Why: React.FC = () => {
                                 One size fits all approach
                             </h4>
                             <p className="text-base lg:text-lg leading-relaxed mb-4">
-                                Existing stablecoin protocols are often implemented as a one size fits all approach(eg: interest rate). This can lead to inefficiencies and high costs for users.
+                            Existing stablecoin protocols are often implemented as a one size fits all approach(example: setting a minimum interest rate, etc.). This can lead to inefficiencies and high costs for users.
                             </p>
                             <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
                                 No innovation in primitives
                             </h4>
                             <p className="text-base lg:text-lg leading-relaxed mb-4">
-                                Existing stablecoin protocols use standard primitives, like interest rate or origination fee to incentivize / disincentivize borrowing. There has been no experimentation with alternative mechanisms. Traditional Finance has several primitives that haven't been tried before in a borrowing protocol. For example: In Islamic Finance, there is no concept of an interest rate. And, traditional finance also offers tools like Reserve Ratio, which can be used to contract / expand money supply.
-                                After all, the goal is to keep the price stable.
+                            Existing stablecoin protocols use standard primitives, like interest rate or origination fee to incentivize / disincentivize borrowing. There has been no experimentation with alternative mechanisms. Traditional Finance has several primitives that haven't been tried before in a borrowing protocol. For example: In Islamic Finance, there is no concept of an interest rate. And, traditional finance also offers other tools like Reserve Ratio, which can be used to contract / expand money supply.
                             </p>
                         </div>
                     </div>
