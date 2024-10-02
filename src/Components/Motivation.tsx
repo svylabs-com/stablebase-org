@@ -27,14 +27,14 @@ const Motivation: React.FC = () => {
                     <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
                         <h3 className="text-2xl font-semibold mb-4 text-violet-300">Decentralized and Immutable</h3>
                         <p>
-                            Protocol is designed to be decentralized and immutable once deployed, thus uses only the native assets of the blockchain.
+                            Protocol is designed to be decentralized and immutable.
                         </p>
                     </div>
                     {/* Card 4 */}
                     <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-                        <h3 className="text-2xl font-semibold mb-4 text-violet-300">Focus on value for borrowers</h3>
+                        <h3 className="text-2xl font-semibold mb-4 text-violet-300">Focus on borrower experience</h3>
                         <p>
-                            The protocol is designed with borrowers in mind. The goal is to make it work for all types of borrowers with different risk profiles.
+                            The protocol is designed with borrowers in mind, with the goal of making it flexible and predictable for borrowers.
                         </p>
                     </div>
                 </div>
