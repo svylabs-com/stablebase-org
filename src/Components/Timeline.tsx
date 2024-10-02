@@ -45,8 +45,8 @@ const Timeline: React.FC = () => {
     ];
 
     return (
-        <section className="relative bg-black text-white py-10">
-            <h2 className="text-center text-2xl font-bold mb-10">Project Timeline</h2>
+        <section className="relative bg-black text-white py-10 lg:px-10">
+            <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl mb-10">Project Timeline</h2>
             <div className="container mx-auto relative">
                 {/* Timeline vertical line */}
                 <div className="absolute w-1 bg-gray-700 h-full left-1/2 transform -translate-x-1/2 z-0"></div>
@@ -59,7 +59,7 @@ const Timeline: React.FC = () => {
                             index % 2 === 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'
                         }`}
                     >
-                        <div className="lg:w-1/2 lg:px-10 z-10">
+                        <div className="lg:w-1/2 lg:px-10 min-w-full md:min-w-fit z-10">
                             {/* Content block */}
                             <div
                                 className={`p-6 rounded-lg shadow-lg ${
