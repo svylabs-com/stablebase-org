@@ -13,24 +13,17 @@ const Why: React.FC = () => {
                 {/* Left Side Content for Desktop */}
                 <div className="hidden lg:block w-full lg:w-1/2 lg:pr-10">
                     <h2 className="text-lg md:text-3xl font-semibold mb-4">
-                        Our Purpose Behind Stablebase
+                        Motivation
                     </h2>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        We are building Stablebase to solve critical issues within the traditional
-                        finance and cryptocurrency ecosystems. Traditional stablecoins often rely
-                        on centralized mechanisms, which can be vulnerable to manipulation and lack
-                        transparency. Stablebase offers a decentralized, transparent solution.
+                        Many protocols have interest rates or fees that are prohibitive for real world usecases, preventing adoption of decentralized stablecoins.
                     </p>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        By allowing users to issue a USD-pegged stablecoin (SBD) through collateralized
-                        assets, we provide a stable, secure way to leverage cryptocurrencies without
-                        losing access to liquidity. With 0% interest rates and user-governed origination
-                        fees, our protocol is designed for long-term stability and mass adoption.
+                        Existing stablecoin protocols are often implemented as a one size fits all approach(eg: interest rate). This can lead to inefficiencies and high costs for users.
                     </p>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        The key differentiator is that users maintain control of their assets, borrowing
-                        and repaying without hidden fees or opaque systems. The decentralized oracle mechanism
-                        ensures fair and transparent pricing, making Stablebase a trustworthy stablecoin solution.
+                        Existing stablecoin protocols use standard primitives, like interest rate or origination fee to incentivize / disincentivize borrowing. There has been no experimentation with alternative mechanisms. Traditional Finance has several primitives that haven't been tried before in a borrowing protocol. For example: In Islamic Finance, there is no concept of an interest rate. And, traditional finance also offers tools like Reserve Ratio, which can be used to contract / expand money supply.
+                        After all, the goal is to keep the price stable.
                     </p>
                 </div>
 
@@ -46,18 +39,17 @@ const Why: React.FC = () => {
                     <div className="absolute inset-0 bg-black bg-opacity-50 lg:hidden overflow-y-auto max-h-full p-6 flex flex-col justify-center items-center text-center">
                         <div className="overflow-y-auto max-h-[80vh] w-full">
                             <h2 className="text-lg md:text-3xl font-semibold mb-4 text-white">
-                                Our Purpose Behind Stablebase
+                            Motivation
                             </h2>
-                            <p className="text-base leading-relaxed mb-4 text-white">
-                                We are building Stablebase to solve critical issues within the traditional
-                                finance and cryptocurrency ecosystems. Traditional stablecoins often rely
-                                on centralized mechanisms, which can be vulnerable to manipulation and lack
-                                transparency. Stablebase offers a decentralized, transparent solution.
+                            <p className="text-base lg:text-lg leading-relaxed mb-4">
+                                Many protocols have interest rates or fees that are prohibitive for real world usecases, preventing adoption of decentralized stablecoins.
                             </p>
-                            <p className="text-base leading-relaxed mb-4 text-white">
-                                By allowing users to issue a USD-pegged stablecoin (SBD) through collateralized
-                                assets, we provide a stable, secure way to leverage cryptocurrencies without
-                                losing access to liquidity.
+                            <p className="text-base lg:text-lg leading-relaxed mb-4">
+                                Existing stablecoin protocols are often implemented as a one size fits all approach(eg: interest rate). This can lead to inefficiencies and high costs for users.
+                            </p>
+                            <p className="text-base lg:text-lg leading-relaxed mb-4">
+                                Existing stablecoin protocols use standard primitives, like interest rate or origination fee to incentivize / disincentivize borrowing. There has been no experimentation with alternative mechanisms. Traditional Finance has several primitives that haven't been tried before in a borrowing protocol. For example: In Islamic Finance, there is no concept of an interest rate. And, traditional finance also offers tools like Reserve Ratio, which can be used to contract / expand money supply.
+                                After all, the goal is to keep the price stable.
                             </p>
                         </div>
                     </div>

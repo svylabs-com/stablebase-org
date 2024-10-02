@@ -63,7 +63,7 @@ const Timeline: React.FC = () => {
                             {/* Content block */}
                             <div
                                 className={`p-6 rounded-lg shadow-lg ${
-                                    index % 2 === 0 ? 'bg-blue-600' : 'bg-blue-400'
+                                    index % 2 === 0 ? 'bg-gray-600' : 'bg-gray-500'
                                 }`}
                             >
                                 <h3 className="text-lg font-semibold">{item.date}</h3>

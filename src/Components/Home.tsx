@@ -19,11 +19,12 @@ const Home: React.FC = () => {
       >
         <div className="flex flex-col gap-4 text-center md:text-left mx-auto">
           <h1 className="text-4xl md:text-6xl font-black tracking-wide">STABLEBASE</h1>
-          <h2 className="md:text-lg text-gray-200">Empowering You to Control Your Financial Future</h2>
+          <h2 className="md:text-lg text-gray-200">An open source stablecoin protocol</h2>
           <div>
-            <button className="px-6 py-3 bg-white text-violet-600 font-semibold rounded-lg shadow-lg hover:bg-violet-500 hover:text-white transition duration-300 ease-in-out">
-              Get started for free
-            </button>
+            <a className="px-6 py-3 bg-white text-violet-600 font-semibold rounded-lg shadow-lg hover:bg-violet-500 hover:text-white transition duration-300 ease-in-out" 
+                href='https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.pdf'>
+             Get started with the Whitepaper
+            </a>
           </div>
         </div>
         <div className="flex justify-center md:justify-end mx-auto">

@@ -11,23 +11,23 @@ import facebookIcon from "../assets/svg/facebook-brands-solid.svg";
 const ExpertTeam: React.FC = () => {
     const teamMembers = [
         {
-            name: 'Muriel Whee',
-            role: 'Marketing Manager',
+            name: 'Sridhar',
+            role: 'Founder & CEO',
             image: murielImage,
         },
         {
-            name: 'John Doe',
-            role: 'Marketing Manager',
+            name: 'Gopalakrishnan',
+            role: 'Advisor - Protocol',
             image: johnImage,
         },
         {
-            name: 'Clay Porter',
-            role: 'Marketing Manager',
+            name: 'Rohit Bharti',
+            role: 'Full stack Developer',
             image: clayImage,
         },
         {
-            name: 'Doug Norm',
-            role: 'Marketing Manager',
+            name: 'Prajna',
+            role: 'Design & documentation',
             image: dougImage,
         },
     ];
@@ -35,11 +35,10 @@ const ExpertTeam: React.FC = () => {
     return (
         <section className="my-10 flex flex-col items-center m-3 mt-5 gap-3">
             <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl">
-                Our Expert Team <span className="text-blue-400">Members</span>
+                Our Team <span className="text-blue-400">Members</span>
             </h2>
             <p className="text-center px-4 md:px-10 text-xs">
-                It is a long established fact that a reader will be distracted by the readable
-                content. It is a long established fact that a reader
+                
             </p>
 
             {/* Team Members */}

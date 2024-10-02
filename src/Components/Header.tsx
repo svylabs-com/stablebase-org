@@ -36,20 +36,21 @@ const Header: React.FC = () => {
         <header className="shadow-md sticky top-0 z-50 p-4 md:px-6 lg:px-10 flex justify-between items-center">
             <Link to="/" className="flex items-center">
                 <img src={logo} alt="Logo" className="h-12 w-12 mr-3 rounded-full" />
-                <h4 className="text-2xl font-bold">Stablebase Protocol</h4>
+                <h4 className="text-2xl font-bold">Stablebase</h4>
             </Link>
 
             <nav className="hidden md:flex items-center">
                 <ul className='flex gap-5 lg:gap-8 items-center'>
+                   {/*
                     <li className="group relative">
                         <a
                             href="#team"
                             className="text-gray-300 lg:font-medium group-hover:text-orange-500 transition-colors duration-300"
                         >
-                            Teams
+                            Team
                         </a>
                         <span className="absolute left-0 bottom-[-2px] w-0 h-0.5 bg-orange-500 group-hover:w-full transition-all duration-300"></span>
-                    </li>
+                    </li>*/}
                     <li className="group relative">
                         <a
                             href="#docs"
@@ -91,9 +92,11 @@ const Header: React.FC = () => {
             {/* Mobile Dropdown Menu */}
             {isMenuOpen && (
                 <div ref={modalRef} className="md:hidden absolute top-16 right-4 w-48 bg-slate-800 shadow-lg rounded-lg flex flex-col items-start p-4 gap-3">
+                    {/*
                     <a href="#team" className="text-gray-300 hover:text-violet-500 font-medium w-full">
-                        Teams
+                        Team
                     </a>
+                    */}
                     <a href="#docs" className="text-gray-300 hover:text-violet-500 font-medium w-full">
                         Docs
                     </a>
