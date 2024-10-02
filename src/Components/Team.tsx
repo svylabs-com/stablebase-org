@@ -1,9 +1,8 @@
 import React from 'react';
-import murielImage from '../assets/clients-image/muriel.png';
-import johnImage from '../assets/clients-image/john.png';
-import clayImage from '../assets/clients-image/clay.png';
-import dougImage from '../assets/clients-image/doug.png';
-import rohitBharti from '../assets/clients-image/rohit-bharti.jpg';
+import sridharImage from '../assets/clients-image/sridhar.jpeg';
+import gopalImage from '../assets/clients-image/gopal.jpeg';
+import rohitImage from '../assets/clients-image/rohit.jpg';
+import prajnaImage from '../assets/clients-image/prajna.png';
 import googleIcon from "../assets/svg/google-brands-solid.svg";
 import instagramIcon from "../assets/svg/instagram-brands-solid.svg";
 import facebookIcon from "../assets/svg/facebook-brands-solid.svg";
@@ -16,7 +15,7 @@ const ExpertTeam: React.FC = () => {
         {
             name: 'Sridhar',
             role: 'Founder & CEO',
-            image: murielImage,
+            image: sridharImage,
             linkedin: 'https://www.linkedin.com/in/sridhar-g-b10902284/',
             github: 'https://github.com/svylabs',
             twitter: 'https://x.com/sginams'
@@ -24,13 +23,13 @@ const ExpertTeam: React.FC = () => {
         {
             name: 'Gopalakrishnan',
             role: 'Advisor - Protocol',
-            image: johnImage,
+            image: gopalImage,
             linkedin: 'https://www.linkedin.com/in/gopalakrishnan-ganesan-786618294/?originalSubdomain=in',
         },
         {
             name: 'Rohit Bharti',
             role: 'Full stack developer',
-            image: rohitBharti,
+            image: rohitImage,
             linkedin: 'https://www.linkedin.com/in/rohit-bharti-b9a437211/',
             github: 'https://github.com/rohitbharti279',
             twitter: 'https://x.com/RohitBh44771576'
@@ -38,7 +37,7 @@ const ExpertTeam: React.FC = () => {
         {
             name: 'Prajna',
             role: 'Design & documentation',
-            image: dougImage,
+            image: prajnaImage,
         },
     ];
 

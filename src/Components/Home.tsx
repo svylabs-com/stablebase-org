@@ -3,7 +3,7 @@ import Motivation from './Motivation';
 import What from './Overview/What';
 import Why from './Overview/Why';
 import How from './Overview/How';
-import ExpertTeam from "./ExpertTeam";
+import Team from "./Team";
 import Timeline from "./Timeline";
 // import ContactUs from './ContactUs';
 import Footer from './Footer';
@@ -38,7 +38,7 @@ const Home: React.FC = () => {
       <What />
       <Why />
       <How />
-      <ExpertTeam />
+      <Team />
       <Timeline />
       {/* <ContactUs /> */}
       <Footer />
