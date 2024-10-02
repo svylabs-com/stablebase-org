@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/stableBaseCoin/static/css/main.776ebd01.css",
+    "main.js": "/stableBaseCoin/static/js/main.14a79db4.js",
+    "static/js/453.a43f6414.chunk.js": "/stableBaseCoin/static/js/453.a43f6414.chunk.js",
+    "static/media/coin.svg": "/stableBaseCoin/static/media/coin.1cf3f025f76b2a712c489257b33cc5cc.svg",
+    "static/media/protocol-how.png": "/stableBaseCoin/static/media/protocol-how.f53dc5348b8e781eded2.png",
+    "static/media/future2.svg": "/stableBaseCoin/static/media/future2.2c8af36b4bff804626d689e48ddcc9a8.svg",
+    "static/media/rohit.jpg": "/stableBaseCoin/static/media/rohit.b48fc6eefa16bd6c8363.jpg",
+    "static/media/sridhar.jpeg": "/stableBaseCoin/static/media/sridhar.0f88d01bba2539ee4dba.jpeg",
+    "static/media/protocol.png": "/stableBaseCoin/static/media/protocol.786cd9208c2d9e53cedf.png",
+    "static/media/prajna.png": "/stableBaseCoin/static/media/prajna.22d4a204c72b311c1b2e.png",
+    "static/media/logo.jpeg": "/stableBaseCoin/static/media/logo.d5f5f64a3f7046dd2788.jpeg",
+    "static/media/github-brands-solid.svg": "/stableBaseCoin/static/media/github-brands-solid.8bbb8f09b1a2192f49f044af8350c909.svg",
+    "static/media/twitter-brands-solid.svg": "/stableBaseCoin/static/media/twitter-brands-solid.642c974d31c5246609a71d6c3e4d7067.svg",
+    "index.html": "/stableBaseCoin/index.html",
+    "static/media/linkedin-brands-solid.svg": "/stableBaseCoin/static/media/linkedin-brands-solid.633a312873229ec1d806b66f9d770fb7.svg",
+    "main.776ebd01.css.map": "/stableBaseCoin/static/css/main.776ebd01.css.map",
+    "main.14a79db4.js.map": "/stableBaseCoin/static/js/main.14a79db4.js.map",
+    "453.a43f6414.chunk.js.map": "/stableBaseCoin/static/js/453.a43f6414.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.776ebd01.css",
+    "static/js/main.14a79db4.js"
+  ]
+}
