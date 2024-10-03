@@ -53,7 +53,7 @@ const ExpertTeam: React.FC = () => {
             {/* Team Members */}
             <div className="flex flex-col gap-5 md:flex-row justify-center pt-4">
                 {teamMembers.map((member, index) => (
-                    <div key={index} className="flex flex-col items-center p-6 px-16 md:p-4 md:px-0 lg:px-4 border border-gray-700 rounded-md shadow-lg">
+                    <div key={index} className="flex flex-col items-center p-6 px-14 md:p-4 md:px-0 lg:px-4 border border-gray-700 rounded-md shadow-lg">
                         <img src={member.image} alt={member.name} className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full" />
                         <p className="font-bold mt-3 text-center text-lg text-nowrap">{member.name}</p>
                         <p className="text-gray-400 text-nowrap">{member.role}</p>
