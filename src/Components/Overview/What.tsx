@@ -18,7 +18,7 @@ const What: React.FC = () => {
                 </div>
 
                 {/* Right Side Content for Desktop */}
-                <div className="lg:w-1/2 lg:pl-10  text-center lg:text-left">
+                <div className="p-2 lg:p-0 lg:w-1/2 lg:pl-10  text-center lg:text-left">
                     <h2 className="text-lg md:text-3xl font-semibold mb-4  text-violet-500" >
                         WHAT IS STABLEBASE
                     </h2>
