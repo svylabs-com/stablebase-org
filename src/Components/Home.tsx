@@ -19,7 +19,7 @@ const Home: React.FC = () => {
       >
         <div className="flex flex-col gap-4 text-center md:text-left mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-black tracking-wide">STABLEBASE</h1>
-          <h2 className="text-sm sm:text-base md:text-lg text-gray-200">Governance free, market driven stablecoin protocol enhancing the borrowing experience</h2>
+          <h2 className="text-sm sm:text-base md:text-lg text-gray-200">A market driven stablecoin protocol with 0% interest rate / origination fee enhancing the borrowing experience</h2>
           <div className="flex justify-center md:justify-start">
             <a
               className="px-4 sm:px-6 py-2 sm:py-3 bg-white text-violet-600 font-semibold rounded-lg shadow-lg hover:bg-violet-500 hover:text-white transition duration-300 ease-in-out text-xs sm:text-base"

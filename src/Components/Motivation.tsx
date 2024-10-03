@@ -20,7 +20,7 @@ const Motivation: React.FC = () => {
                     <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
                         <h3 className="text-2xl font-semibold mb-4 text-violet-300">Market Driven Approach</h3>
                         <p>
-                            The protocol is designed to be market driven, with the goal of creating a stablecoin that is useful for real world use cases.
+                            The protocol is designed to be market driven with a base interest rate / fee of 0%.
                         </p>
                     </div>
                     {/* Card 3 */}
