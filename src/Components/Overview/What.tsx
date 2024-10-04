@@ -27,9 +27,9 @@ const What: React.FC = () => {
                             CDP based Stablecoin Protocol
                                 </h4>
                             <p className="text-base leading-relaxed mb-4 text-white">
-                                StableBase is a decentralized CDP based protocol that allows users to mint a USD-pegged stablecoin by depositing ETH or native assets as collateral. 
-                                The protocol aims to improve borrowing experience for both large and small users by providing an alternative mechanism to traditional interest rate
-                                based CDP protocols.
+                                StableBase is a decentralized CDP based protocol that allows users to mint a USD-pegged stablecoin by depositing a collateral asset. 
+                                The protocol uses Liquidation and Redemption mechanisms to ensure the stability of the stablecoin, and offers yield to participants from the fees paid by users.
+                                The protocol aims to improve borrowing experience by providing an alternative mechanism to contract and expand money supply compared to traditional interest rates.
                             </p>
                             <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
                                 Caters to Different Risk Profiles
@@ -56,9 +56,9 @@ const What: React.FC = () => {
                         CDP based Stablecoin Protocol
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                            StableBase is a decentralized protocol that allows users to mint a USD-pegged stablecoin by depositing ETH or native assets as collateral. 
-                            The protocol aims to improve borrowing experience for large and small users by providing an alternative mechanism to traditional interest rate
-                            based CDP protocols.
+                        StableBase is a decentralized CDP based protocol that allows users to mint a USD-pegged stablecoin by depositing a collateral asset. 
+                        The protocol uses Liquidation and Redemption mechanisms to ensure the stability of the stablecoin, and offers yield to participants from the fees paid by users.
+                        The protocol aims to improve borrowing experience by providing an alternative mechanism to contract and expand money supply compared to traditional interest rates.
                     </p>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
                         Caters to Different Risk Profiles

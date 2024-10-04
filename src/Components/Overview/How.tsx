@@ -28,13 +28,17 @@ const How: React.FC = () => {
                             Decentralized Rate Governors
                                 </h4>
                             <p className="text-base leading-relaxed mb-4 text-white">
-                            Rate governors are also borrowers of the protocol and borrow at 0% rates. Anyone can become a rate governor by locking up a certain percentage(reserve ratio) of the borrowed stablecoins into the reserve pool. The rate governors additionally set the shielding rate for the protocol. Rate Governors participate in the stability of the protocol by setting reserve ratio, and shielding rates. Thus they are at high risk of redemptions and they need to actively manage their positions.
+                            Rate governors are also borrowers of the protocol and borrow at 0% rates. Anyone can become a rate governor by locking up a certain 
+                            percentage(reserve ratio) of the borrowed stablecoins into the reserve pool. The rate governors additionally collectively set the shielding 
+                            rate for the protocol. The supply of money in the system is stabilized by adjusting reserve ratio and shielding rates. As the risk of redemptions 
+                            is high for these users, they need to actively manage their positions.
                             </p>
                             <p className="text-base leading-relaxed mb-4 text-violet-300">
                                 Redemption Protection
                             </p>
                             <p className="text-base leading-relaxed mb-4 text-white">
-                                Users that do not want to be a rate governor, could pay a shielding rate, and their collateral is protected from redemptions pro-rata based on the shielding fee paid.
+                                Users that does not want to be a rate governor, could pay a shielding rate, and their collateral is protected from redemptions pro-rata based on the shielding fee paid. 
+                                This mechanism significantly enhances the borrowing experience for these class of users.
                             </p>
                             <p className="text-base leading-relaxed mb-4 text-violet-300">
                                 Yield for Participants
@@ -55,13 +59,17 @@ const How: React.FC = () => {
                         Decentralized Rate Governors
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Rate governors are also borrowers of the protocol and borrow at 0% rates. Anyone can become a rate governor by locking up a certain percentage(reserve ratio) of the borrowed stablecoins into the reserve pool. The rate governors additionally set the shielding rate for the protocol. Rate Governors participate in the stability of the protocol by setting reserve ratio, and shielding rates. Thus they are at high risk of redemptions and they need to actively manage their positions.
+                    Rate governors are also borrowers of the protocol and borrow at 0% rates. Anyone can become a rate governor by locking up a certain 
+                            percentage(reserve ratio) of the borrowed stablecoins into the reserve pool. The rate governors additionally collectively set the shielding 
+                            rate for the protocol. The supply of money in the system is stabilized by adjusting reserve ratio and shielding rates. As the risk of redemptions 
+                            is high for these users, they need to actively manage their positions.
                     </p>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
                          Redemption Protection
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Users that do not want to be a rate governor, could pay a shielding rate, and their collateral is protected from redemptions pro-rata based on the shielding fee paid.
+                    Users that does not want to be a rate governor, could pay a shielding rate, and their collateral is protected from redemptions pro-rata based on the shielding fee paid. 
+                    This mechanism significantly enhances the borrowing experience for these class of users.
                     </p>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
                          Yield for Participants
