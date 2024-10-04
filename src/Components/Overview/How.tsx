@@ -28,10 +28,10 @@ const How: React.FC = () => {
                             Decentralized Rate Governors
                                 </h4>
                             <p className="text-base leading-relaxed mb-4 text-white">
-                            Rate governors are also borrowers of the protocol and borrow at 0% rates. Anyone can become a rate governor by locking up a certain 
-                            percentage(reserve ratio) of the borrowed stablecoins into the reserve pool. The rate governors additionally collectively set the shielding 
-                            rate for the protocol. The supply of money in the system is stabilized by adjusting reserve ratio and shielding rates. As the risk of redemptions 
-                            is high for these users, they need to actively manage their positions.
+                            Rate governors are also borrowers of the protocol and borrow at 0% rates. Any user can become a rate governor by locking up a certain 
+                            percentage(reserve ratio) of the borrowed stablecoins into the reserve pool, the ratio is determined by the user themselves. Additionally, the rate governors collectively set the shielding 
+                            rate for the protocol. As the exchange rate stability is closely linked to reserve ratio and shielding rates, redemption is based on these parameters, 
+                            making it crucial for rate governors to actively manage these parameters.
                             </p>
                             <p className="text-base leading-relaxed mb-4 text-violet-300">
                             Redemption
@@ -65,10 +65,10 @@ const How: React.FC = () => {
                         Decentralized Rate Governors
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                    Rate governors are also borrowers of the protocol and borrow at 0% rates. Anyone can become a rate governor by locking up a certain 
-                            percentage(reserve ratio) of the borrowed stablecoins into the reserve pool. The rate governors additionally collectively set the shielding 
-                            rate for the protocol. The supply of money in the system is stabilized by adjusting reserve ratio and shielding rates. As the risk of redemptions 
-                            is high for these users, they need to actively manage their positions.
+                    Rate governors are also borrowers of the protocol and borrow at 0% rates. Any user can become a rate governor by locking up a certain 
+                            percentage(reserve ratio) of the borrowed stablecoins into the reserve pool, the ratio is determined by the user themselves. Additionally, the rate governors collectively set the shielding 
+                            rate for the protocol. As the exchange rate stability is closely linked to reserve ratio and shielding rates, redemption is based on these parameters, 
+                            making it crucial for rate governors to actively manage these parameters.
                     </p>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
                          Redemption
