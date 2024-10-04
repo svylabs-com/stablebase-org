@@ -34,11 +34,12 @@ const How: React.FC = () => {
                             is high for these users, they need to actively manage their positions.
                             </p>
                             <p className="text-base leading-relaxed mb-4 text-violet-300">
-                                Redemption Protection
+                            Redeemability and Redemption Protection
                             </p>
                             <p className="text-base leading-relaxed mb-4 text-white">
-                                Users that does not want to be a rate governor, could pay a shielding rate, and their collateral is protected from redemptions pro-rata based on the shielding fee paid. 
-                                This mechanism significantly enhances the borrowing experience for these class of users.
+                            Users holding the stablecoin can redeem the stablecoin for the collateral asset at any time. The protocol prioritizes redemption based on the stability rate and reserve ratio set by rate governors.
+                    However, not all users want to be a rate governor. These users could pay shielding rate to protect their collateral being redeemed, and the duration of protection is determined pro-rata based on the shielding fee paid. 
+                    This mechanism significantly enhances the borrowing experience for these class of users.
                             </p>
                             <p className="text-base leading-relaxed mb-4 text-violet-300">
                                 Yield for Participants
@@ -65,10 +66,11 @@ const How: React.FC = () => {
                             is high for these users, they need to actively manage their positions.
                     </p>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
-                         Redemption Protection
+                         Redeemability and Redemption Protection
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                    Users that does not want to be a rate governor, could pay a shielding rate, and their collateral is protected from redemptions pro-rata based on the shielding fee paid. 
+                    Users holding the stablecoin can redeem the stablecoin for the collateral asset at any time. The protocol prioritizes redemption based on the stability rate and reserve ratio set by rate governors.
+                    However, not all users want to be a rate governor. These users could pay shielding rate to protect their collateral being redeemed, and the duration of protection is determined pro-rata based on the shielding fee paid. 
                     This mechanism significantly enhances the borrowing experience for these class of users.
                     </p>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
