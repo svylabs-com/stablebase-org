@@ -31,7 +31,7 @@ const Why: React.FC = () => {
                         Use of Reserve Ratio during Gold Standard
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Our protocol uses Collateral Debt Position, resembling the Gold standard. The protocol aims to use Reserve Ratio instead of Interest Rate as main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard as redeemability is the key feature in both mechanisms.
+                        Our protocol uses Collateral Debt Position, resembling the Gold standard. The protocol aims to use Reserve Ratio instead of Interest Rate as main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard.
                     </p>
                 </div>
 
@@ -65,7 +65,7 @@ const Why: React.FC = () => {
                             Use of Reserve Ratio during Gold Standard
                             </h4>
                             <p className="text-base lg:text-lg leading-relaxed mb-4">
-                            Our protocol uses Collateral Debt Position, resembling the Gold standard. The protocol aims to use Reserve Ratio instead of Interest Rate as main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard as redeemability is the key feature in both mechanisms.
+                            Our protocol uses Collateral Debt Position, resembling the Gold standard. The protocol aims to use Reserve Ratio instead of Interest Rate as main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard.
                             </p>
                         </div>
                     </div>
