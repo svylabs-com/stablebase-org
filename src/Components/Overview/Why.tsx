@@ -15,23 +15,23 @@ const Why: React.FC = () => {
                     <h2 className="text-lg md:text-3xl font-semibold mb-4  text-violet-500">
                         Motivation
                     </h2>
-                    <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
-                        Prohibitive Fees
+                    <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
+                        Decentralized Federal Reserve
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Many protocols have interest rates or fees that are prohibitive for real world usecases, preventing adoption of decentralized stablecoins.
+                        Our protocol aims to be the decentralized federal reserve where the main goal is exchange rate stability.
                     </p>
-                    <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
+                    <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
                         One size fits all approach
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Existing stablecoin protocols are often implemented as a one size fits all approach(example: setting a minimum interest rate, etc.). This can lead to inefficiencies and high costs for users.
+                        Existing stablecoin protocols are often implemented as a one size fits all approach, where all users are considered to have identical needs and capabilities or introduces third party trust by having delegated actions. This can lead to inefficiencies and high hidden costs for users.
                     </p>
-                    <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
-                        No innovation in primitives
+                    <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
+                        Use of Reserve Ratio during Gold Standard
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Existing stablecoin protocols use standard primitives, like interest rate or origination fee to incentivize / disincentivize borrowing. There has been no experimentation with alternative mechanisms. Traditional Finance has several primitives that haven't been tried before in a borrowing protocol. For example: In Islamic Finance, there is no concept of an interest rate. And, traditional finance also offers other tools like Reserve Ratio, which can be used to contract / expand money supply.
+                        Our protocol uses Collateral Debt Position, resembling the Gold standard. The protocol aims to use Reserve Ratio instead of Interest Rate as main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard as redeemability is the key feature in both mechanisms.
                     </p>
                 </div>
 
@@ -49,23 +49,23 @@ const Why: React.FC = () => {
                             <h2 className="text-lg md:text-3xl font-semibold mb-4 text-violet-500">
                             Motivation
                             </h2>
-                            <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
-                                Prohibitive Fees
+                            <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
+                            Decentralized Federal Reserve
                             </h4>
                             <p className="text-base lg:text-lg leading-relaxed mb-4">
-                                Many protocols have interest rates or fees that are prohibitive for real world usecases, preventing adoption of decentralized stablecoins.
+                            Our protocol aims to be the federal reserve under the gold standard, where the main goal is exchange rate stability.
                             </p>
-                            <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
+                            <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
                                 One size fits all approach
                             </h4>
                             <p className="text-base lg:text-lg leading-relaxed mb-4">
-                            Existing stablecoin protocols are often implemented as a one size fits all approach(example: setting a minimum interest rate, etc.). This can lead to inefficiencies and high costs for users.
+                            Existing stablecoin protocols are often implemented as a one size fits all approach, where all users are considered to have identical needs and capabilities or introduces third party trust by having delegated actions. This can lead to inefficiencies and high hidden costs for users.
                             </p>
-                            <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
-                                No innovation in primitives
+                            <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
+                            Use of Reserve Ratio during Gold Standard
                             </h4>
                             <p className="text-base lg:text-lg leading-relaxed mb-4">
-                            Existing stablecoin protocols use standard primitives, like interest rate or origination fee to incentivize / disincentivize borrowing. There has been no experimentation with alternative mechanisms. Traditional Finance has several primitives that haven't been tried before in a borrowing protocol. For example: In Islamic Finance, there is no concept of an interest rate. And, traditional finance also offers other tools like Reserve Ratio, which can be used to contract / expand money supply.
+                            Our protocol uses Collateral Debt Position, resembling the Gold standard. The protocol aims to use Reserve Ratio instead of Interest Rate as main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard as redeemability is the key feature in both mechanisms.
                             </p>
                         </div>
                     </div>
