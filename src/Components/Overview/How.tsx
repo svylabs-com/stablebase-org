@@ -25,11 +25,18 @@ const How: React.FC = () => {
                                 Key Innovations
                             </h2>
                             <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
-                            Decentralized Rate Governors
-                                </h4>
+                            Reserve Ratio and Shielding Rate
+                            </h4>
                             <p className="text-base leading-relaxed mb-4 text-white">
-                            Rate governors are also borrowers of the protocol and borrow at 0% rates. Any user can become a rate governor by locking up a certain 
-                            percentage(reserve ratio) of the borrowed stablecoins into the reserve pool, the ratio is determined by the user themselves. Additionally, the rate governors collectively set the shielding 
+                            We introduce new monetary policy tool called Reserve Ratio, which is used to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard. <br/>
+                            <strong>Reserve Ratio</strong>: A proportion of the borrowed stablecoins that are locked up in a reserve pool. This parameter is user determined. <br/>
+                            <strong>Shielding Rate</strong>: A fee paid by users to protect their collateral from being redeemed. This fee is determined by rate governors. <br/>
+                            </p>
+                            <h4 className="text-lg md:text-3xl font-semibold mb-4 text-violet-300">
+                            Decentralized Rate Governors
+                            </h4>
+                            <p className="text-base leading-relaxed mb-4 text-white">
+                            Rate governors are borrowers of the protocol and borrow at 0% rates. Any user can become a rate governor by borrowing and locking up a percentage of stablecoins into reserve pool. Additionally, the rate governors collectively set the shielding 
                             rate for the protocol. As the exchange rate stability is closely linked to reserve ratio and shielding rates, redemption is based on these parameters, 
                             making it crucial for rate governors to actively manage these parameters.
                             </p>
@@ -43,9 +50,9 @@ const How: React.FC = () => {
                             Redemption Protection
                             </p>
                             <p className="text-base leading-relaxed mb-4 text-white">
-                            Not all users want to be a rate governor. These users could pay shielding rate to protect their collateral being redeemed, and the duration of protection is determined pro-rata based on the shielding fee paid. 
-                            This mechanism significantly enhances the borrowing experience for these class of users.
-                                </p>
+                            Being a rate governor carries risk of redemption and not all users want to take this risk. These users pay shielding rate to protect their collateral being redeemed, and the duration of protection is determined pro-rata based on the shielding fee paid. 
+                            This mechanism significantly enhances the borrowing experience for these class of users who want predictable borrowing terms.
+                            </p>
                             <p className="text-base leading-relaxed mb-4 text-violet-300">
                                 Yield for Participants
                             </p>
@@ -62,27 +69,34 @@ const How: React.FC = () => {
                         Key Innovations
                     </h2>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
-                        Decentralized Rate Governors
+                        Reserve Ratio and Shielding Rate
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                    Rate governors are also borrowers of the protocol and borrow at 0% rates. Any user can become a rate governor by locking up a certain 
-                            percentage(reserve ratio) of the borrowed stablecoins into the reserve pool, the ratio is determined by the user themselves. Additionally, the rate governors collectively set the shielding 
-                            rate for the protocol. As the exchange rate stability is closely linked to reserve ratio and shielding rates, redemption is based on these parameters, 
-                            making it crucial for rate governors to actively manage these parameters.
+                    We introduce new monetary policy tool called Reserve Ratio, which is used to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard. <br/>
+                    <strong>Reserve Ratio</strong>: A proportion of the borrowed stablecoins that are locked up in a reserve pool. This parameter is user determined. <br/>
+                    <strong>Shielding Rate</strong>: A fee paid by users to protect their collateral from being redeemed. This fee is determined by rate governors. <br/>
                     </p>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
-                         Redemption
+                    Decentralized Rate Governors
+                    </h4>
+                    <p className="text-base lg:text-lg leading-relaxed mb-4">
+                    Rate governors are borrowers of the protocol and borrow at 0% rates. Any user can become a rate governor by borrowing and locking up a percentage of stablecoins into reserve pool. Additionally, the rate governors collectively set the shielding 
+                    rate for the protocol. As the exchange rate stability is closely linked to reserve ratio and shielding rates, redemption is based on these parameters, 
+                    making it crucial for rate governors to actively manage these parameters.
+                    </p>
+                    <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
+                    Redemption
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
                     Users holding the stablecoin can redeem the stablecoin for the collateral asset at any time. The protocol prioritizes redemption based on the stability rate and reserve ratio set by rate governors.
                     </p>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
-                         Redemption Protection
+                    Redemption Protection
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                    Not all users want to be a rate governor. These users could pay shielding rate to protect their collateral being redeemed, and the duration of protection is determined pro-rata based on the shielding fee paid. 
-                    This mechanism significantly enhances the borrowing experience for these class of users.
-                    </p>
+                    Being a rate governor carries risk of redemption and not all users want to take this risk. These users pay shielding rate to protect their collateral being redeemed, and the duration of protection is determined pro-rata based on the shielding fee paid. 
+                    This mechanism significantly enhances the borrowing experience for these class of users who want predictable borrowing terms.
+                        </p>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
                          Yield for Participants
                     </h4>

@@ -16,22 +16,22 @@ const Why: React.FC = () => {
                         Motivation
                     </h2>
                     <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
-                        Decentralized Federal Reserve
-                    </h4>
-                    <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Our protocol aims to be the decentralized federal reserve where the main goal is exchange rate stability.
-                    </p>
-                    <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
                         One size fits all approach
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
                         Existing stablecoin protocols are often implemented as a one size fits all approach, where all users are considered to have identical needs and capabilities or introduces third party trust by having delegated actions. This can lead to inefficiencies and high hidden costs for users.
                     </p>
                     <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
-                        Use of Reserve Ratio during Gold Standard
+                        Layered Approach
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Our protocol uses Collateral Debt Position, resembling the Gold standard. The protocol aims to use Reserve Ratio instead of Interest Rate as main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard.
+                        Our protocol aims to have a layered approach, where the base layer's main goal is exchange rate stability.
+                    </p>
+                    <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
+                        Use of Reserve Ratio for exchange rate stability
+                    </h4>
+                    <p className="text-base lg:text-lg leading-relaxed mb-4">
+                        Most protocol use Interest Rate as the main monetary policy tool, our protocol instead uses Reserve Ratio(in a modified form) as the main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard.
                     </p>
                 </div>
 
@@ -50,22 +50,22 @@ const Why: React.FC = () => {
                             Motivation
                             </h2>
                             <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
-                            Decentralized Federal Reserve
-                            </h4>
-                            <p className="text-base lg:text-lg leading-relaxed mb-4">
-                            Our protocol aims to be the federal reserve under the gold standard, where the main goal is exchange rate stability.
-                            </p>
-                            <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
                                 One size fits all approach
                             </h4>
                             <p className="text-base lg:text-lg leading-relaxed mb-4">
                             Existing stablecoin protocols are often implemented as a one size fits all approach, where all users are considered to have identical needs and capabilities or introduces third party trust by having delegated actions. This can lead to inefficiencies and high hidden costs for users.
                             </p>
                             <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
-                            Use of Reserve Ratio during Gold Standard
+                                Layered Approach
                             </h4>
                             <p className="text-base lg:text-lg leading-relaxed mb-4">
-                            Our protocol uses Collateral Debt Position, resembling the Gold standard. The protocol aims to use Reserve Ratio instead of Interest Rate as main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard.
+                                Our protocol aims to have a layered approach, where the base layer's main goal is exchange rate stability.
+                            </p>
+                            <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
+                            Use of Reserve Ratio for exchange rate stability
+                            </h4>
+                            <p className="text-base lg:text-lg leading-relaxed mb-4">
+                            Most protocol use Interest Rate as the main monetary policy tool, our protocol instead uses Reserve Ratio(in a modified form) as the main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard.
                             </p>
                         </div>
                     </div>
