@@ -4,11 +4,6 @@ import protocolImage from '../../assets/photos/protocol.png';
 const Why: React.FC = () => {
     return (
         <section className="my-10 lg:px-10 lg:my-20">
-            {/* Main Heading */}
-            {/* <h1 className="p-2 md:py-4 font-bold text-2xl md:text-3xl lg:text-4xl px-4 md:px-6 lg:px-0 lg:mx-auto lg:flex items-center justify-center">
-                Why We Are Building Stablebase Protocol
-            </h1> */}
-
             <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center justify-between">
                 {/* Left Side Content for Desktop */}
                 <div className="hidden lg:block w-full lg:w-1/2 lg:pr-10">

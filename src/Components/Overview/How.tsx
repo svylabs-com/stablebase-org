@@ -4,14 +4,12 @@ import protocolImage from '../../assets/photos/protocol-how.png';
 const How: React.FC = () => {
     return (
         <section className="my-10 lg:px-10 lg:my-20">
-
             <div className="container mx-auto flex flex-col lg:flex-row justify-between">
                 {/* Left Side Image (Visible as background on mobile) */}
                 <div className="relative w-full lg:w-1/2 lg:bg-gray-400 lg:p-6 rounded-md">
                     <img
                         src={protocolImage}
                         alt="Protocol Overview"
-                        // className="w-full h-full object-cover opacity-40 lg:static lg:shadow-lg lg:rounded-md bg-black lg:opacity-100"
                         className="w-full h-[92rem] object-cover opacity-40 md:h-[58rem] lg:h-full lg:static lg:shadow-lg lg:rounded-md bg-black lg:opacity-100"
                     />
 
