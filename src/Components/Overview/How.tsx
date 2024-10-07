@@ -9,13 +9,13 @@ const How: React.FC = () => {
                 How We Are Building Stablebase Protocol
             </h1> */}
 
-            <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between">
+            <div className="container mx-auto flex flex-col lg:flex-row justify-between">
                 {/* Left Side Image (Visible as background on mobile) */}
                 <div className="relative w-full lg:w-1/2 lg:bg-gray-400 lg:p-6 rounded-md">
                     <img
                         src={protocolImage}
                         alt="Protocol Overview"
-                        className="w-full h-full object-cover opacity-40 md:h-[30rem] lg:static lg:shadow-lg lg:rounded-md bg-black lg:opacity-100"
+                        className="w-full h-full object-cover opacity-40 lg:static lg:shadow-lg lg:rounded-md bg-black lg:opacity-100"
                     />
 
                     {/* Overlay Content for mobile */}
