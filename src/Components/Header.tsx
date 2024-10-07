@@ -59,6 +59,7 @@ const Header: React.FC = () => {
                         <a
                             href="https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.pdf"
                             className="text-gray-300 lg:font-medium group-hover:text-orange-500 transition-colors duration-300"
+                            target='_blank'
                         >
                             Docs
                         </a>
