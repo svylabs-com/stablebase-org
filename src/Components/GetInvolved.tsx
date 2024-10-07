@@ -2,9 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUsers, faWallet, faCode, faDollarSign, faHandshake, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
+import ContactUs from './ContactUs';
+import Footer from './Footer';
 
 const GetInvolved: React.FC = () => {
   return (
+    <>
     <div className="bg-black text-white min-h-screen p-6 flex flex-col items-center justify-center md:px-6 lg:px-10">
       <div className="flex w-full justify-end">
         <Link to="/" className="text-gray-400 hover:text-violet-500 transition duration-300 mb-6" title="Back to Home">
@@ -121,6 +124,9 @@ const GetInvolved: React.FC = () => {
         </div>
       </div>
     </div>
+    <ContactUs />
+    <Footer /> 
+    </>
   );
 };
 
