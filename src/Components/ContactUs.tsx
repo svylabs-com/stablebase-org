@@ -17,10 +17,9 @@ const ContactUs: React.FC = () => {
             <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl mb-10">Contact <span className="text-violet-600">Us</span></h2>
             <div className="container mx-auto flex flex-col md:flex-row justify-between md:items-center h-full">
                 <div className="md:w-1/2 mb-10 md:mb-0 flex flex-col justify-center items-center h-full">
-                    <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-center">Share Your Thoughts</h2>
+                    <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-center text-violet-600">Share Your Thoughts</h2>
                     <p className="text-base lg:text-lg leading-relaxed text-center">
-                        We'd love to hear from you! Whether you have feedback, questions, or suggestions,
-                        feel free to share your thoughts with us. Your input helps us improve and grow.
+                        Contact us to get involved, whether you are a user, an investor or looking to collaborate, we would love to hear from you.
                     </p>
                 </div>
 
@@ -41,7 +40,7 @@ const ContactUs: React.FC = () => {
                         </div>
 
                         <div className="mb-3">
-                            <label className="block mb-2 text-sm font-medium" htmlFor="type">Type</label>
+                            <label className="block mb-2 text-sm font-medium" htmlFor="type">I'm a</label>
                             <select
                                 id="type"
                                 className="w-full p-3 rounded-lg bg-gray-900 text-white border border-gray-700 focus:outline-none focus:border-violet-500"
@@ -49,9 +48,12 @@ const ContactUs: React.FC = () => {
                                 onChange={(e) => setType(e.target.value)}
                                 required
                             >
-                                <option value="User">User</option>
-                                <option value="Partner">Partner</option>
+                                <option value="User">User, wanna try your product</option>
+                                <option value="LiquidityProvider">Liquidity Provider</option>
                                 <option value="Investor">Investor</option>
+                                <option value="Institution">Institution</option>
+                                <option value="Developer">Developer</option>
+                                <option value="Other">Others</option>
                             </select>
                         </div>
 
