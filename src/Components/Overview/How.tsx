@@ -10,7 +10,7 @@ const How: React.FC = () => {
                     <img
                         src={protocolImage}
                         alt="Protocol Overview"
-                        className="w-full h-[92rem] object-cover opacity-40 md:h-[58rem] lg:h-full lg:static lg:shadow-lg lg:rounded-md bg-black lg:opacity-100"
+                        className="w-full h-[92rem] object-fill md:object-cover opacity-40 md:h-[58rem] lg:h-full lg:static lg:shadow-lg lg:rounded-md bg-black lg:opacity-100"
                     />
 
                     {/* Overlay Content for mobile and medium screens */}
