@@ -40,34 +40,32 @@ const Why: React.FC = () => {
                     <img
                         src={protocolImage}
                         alt="Why We Are Building"
-                        className="w-full h-full object-cover opacity-40 md:h-[30rem] lg:static lg:shadow-lg lg:rounded-md lg:opacity-100"
+                        className='w-full h-[100vh] object-cover opacity-40 md:h-[30rem] lg:h-full lg:static lg:shadow-lg lg:rounded-md lg:opacity-100'
                     />
 
-                    {/* Overlay Content for mobile */}
-                    <div className="absolute inset-0 bg-black bg-opacity-50 lg:hidden overflow-y-auto max-h-full p-6 flex flex-col justify-center items-center text-center">
-                        <div className="overflow-y-auto max-h-[80vh] w-full">
-                            <h2 className="text-lg md:text-3xl font-semibold mb-4 text-violet-500">
+                    {/* Overlay Content for mobile and medium screens */}
+                    <div className="absolute inset-0 bg-black bg-opacity-50 lg:hidden flex flex-col justify-center items-center text-center p-2">
+                        <h2 className="text-lg md:text-3xl font-semibold mb-4 text-violet-500">
                             Motivation
-                            </h2>
-                            <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
-                                One size fits all approach
-                            </h4>
-                            <p className="text-base lg:text-lg leading-relaxed mb-4">
+                        </h2>
+                        <h4 className="text-lg md:text-xl font-semibold mb-2 text-violet-300">
+                            One size fits all approach
+                        </h4>
+                        <p className="text-base lg:text-lg leading-relaxed mb-4">
                             Existing stablecoin protocols are often implemented as a one size fits all approach, where all users are considered to have identical needs and capabilities or introduces third party trust by having delegated actions. This can lead to inefficiencies and high hidden costs for users.
-                            </p>
-                            <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
-                                Layered Approach
-                            </h4>
-                            <p className="text-base lg:text-lg leading-relaxed mb-4">
-                                Our protocol aims to have a layered approach, where the base layer's main goal is exchange rate stability.
-                            </p>
-                            <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
+                        </p>
+                        <h4 className="text-lg md:text-xl font-semibold mb-2 text-violet-300">
+                            Layered Approach
+                        </h4>
+                        <p className="text-base lg:text-lg leading-relaxed mb-4">
+                            Our protocol aims to have a layered approach, where the base layer's main goal is exchange rate stability.
+                        </p>
+                        <h4 className="text-lg md:text-xl font-semibold mb-2 text-violet-300">
                             Use of Reserve Ratio for exchange rate stability
-                            </h4>
-                            <p className="text-base lg:text-lg leading-relaxed mb-4">
+                        </h4>
+                        <p className="text-base lg:text-lg leading-relaxed mb-4">
                             Most protocol use Interest Rate as the main monetary policy tool, our protocol instead uses Reserve Ratio(in a modified form) as the main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard.
-                            </p>
-                        </div>
+                        </p>
                     </div>
                 </div>
             </div>
