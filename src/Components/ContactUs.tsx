@@ -17,14 +17,14 @@ const ContactUs: React.FC = () => {
             <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl mb-10">Contact <span className="text-violet-600">Us</span></h2>
             <div className="container mx-auto flex flex-col md:flex-row justify-between md:items-center h-full">
                 <div className="md:w-1/2 mb-10 md:mb-0 flex flex-col justify-center items-center h-full">
-                    <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-center text-violet-600">Share Your Thoughts</h2>
+                    <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-center text-violet-600">Get In Touch</h2>
                     <p className="text-base lg:text-lg leading-relaxed text-center">
                         Contact us to get involved, whether you are a user, an investor or looking to collaborate, we would love to hear from you.
                     </p>
                 </div>
 
                 <div className="md:w-1/2 bg-gray-800 p-6 rounded-lg shadow-lg">
-                    <h3 className="text-xl lg:text-2xl font-semibold mb-4">Send Message</h3>
+                    <h3 className="text-xl lg:text-2xl font-semibold mb-4"></h3>
                     <form onSubmit={handleSubmit}>
                         <div className="mb-3">
                             <label className="block mb-2 text-sm font-medium" htmlFor="name">Your Name</label>
@@ -86,7 +86,7 @@ const ContactUs: React.FC = () => {
                             type="submit"
                             className="w-full py-3 bg-violet-600 text-white font-semibold rounded-lg shadow-lg hover:bg-violet-700 transition ease-in-out duration-300"
                         >
-                            Send Message
+                            Send
                         </button>
                     </form>
                 </div>

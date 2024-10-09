@@ -11,22 +11,22 @@ const Why: React.FC = () => {
                         Motivation
                     </h2>
                     <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
+                    Bitcoin backed
+                    </h4>
+                    <p className="text-base lg:text-lg leading-relaxed mb-4">
+                    Bitcoin's value is a trillion dollar worth, but there are no decentralized borrowing solutions for Bitcoin. By using Bitcoin as collateral on a sufficiently trust minimized L2, we will unlock trillion dollar worth of collateral onchain.
+                    </p>
+                    <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
                         One size fits all approach
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
                         Existing stablecoin protocols are often implemented as a one size fits all approach, where all users are considered to have identical needs and capabilities or introduces third party trust by having delegated actions. This can lead to inefficiencies and high hidden costs for users.
                     </p>
                     <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
-                        Layered Approach
+                    Achieve market stability with 0% Interest Rate 
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Our protocol aims to have a layered approach, where the base layer's main goal is exchange rate stability.
-                    </p>
-                    <h4 className="text-lg md:text-xl font-semibold mb-4 text-violet-300">
-                        Use of Reserve Ratio for exchange rate stability
-                    </h4>
-                    <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        Most protocol use Interest Rate as the main monetary policy tool, our protocol instead uses Reserve Ratio(in a modified form) as the main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard.
+                    Currently only one protocol has 0% interest rate, however the protocol is inefficient in all market conditions. Our goal with this protocol is to achieve a stablecoin design with 0% interest rate. To achieve it, we borrow policy tools from traditional finance- namely, the Cash Reserve Ratio or simply we call it Reserve Ratio to contract and expand money supply, enabling borrowing at 0% interest rate.
                     </p>
                 </div>
 
@@ -44,22 +44,22 @@ const Why: React.FC = () => {
                             Motivation
                         </h2>
                         <h4 className="text-lg md:text-xl font-semibold mb-2 text-violet-300">
+                            Bitcoin backed
+                        </h4>
+                        <p className="text-base lg:text-lg leading-relaxed mb-4">
+                            Bitcoin's value is a trillion dollar worth, but there are no decentralized borrowing solutions for Bitcoin. By using Bitcoin as collateral on a sufficiently trust minimized L2, we will unlock trillion dollar worth of collateral onchain.
+                        </p>
+                        <h4 className="text-lg md:text-xl font-semibold mb-2 text-violet-300">
                             One size fits all approach
                         </h4>
                         <p className="text-base lg:text-lg leading-relaxed mb-4">
                             Existing stablecoin protocols are often implemented as a one size fits all approach, where all users are considered to have identical needs and capabilities or introduces third party trust by having delegated actions. This can lead to inefficiencies and high hidden costs for users.
                         </p>
                         <h4 className="text-lg md:text-xl font-semibold mb-2 text-violet-300">
-                            Layered Approach
+                            Achieve market stability with 0% Interest Rate 
                         </h4>
                         <p className="text-base lg:text-lg leading-relaxed mb-4">
-                            Our protocol aims to have a layered approach, where the base layer's main goal is exchange rate stability.
-                        </p>
-                        <h4 className="text-lg md:text-xl font-semibold mb-2 text-violet-300">
-                            Use of Reserve Ratio for exchange rate stability
-                        </h4>
-                        <p className="text-base lg:text-lg leading-relaxed mb-4">
-                            Most protocol use Interest Rate as the main monetary policy tool, our protocol instead uses Reserve Ratio(in a modified form) as the main monetary policy tool, to expand / contract money supply providing stability in exchange rates, similar to how it was done during the Gold Standard.
+                            Currently only one protocol has 0% interest rate, however the protocol is inefficient in all market conditions. Our goal with this protocol is to achieve a stablecoin design with 0% interest rate. To achieve it, we borrow policy tools from traditional finance- namely, the Cash Reserve Ratio or simply we call it Reserve Ratio to contract and expand money supply, enabling borrowing at 0% interest rate.
                         </p>
                     </div>
                 </div>
