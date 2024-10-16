@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
 
         {/* Social Links */}
         <div className="flex justify-center md:justify-end space-x-8 mb-6">
-          <a href="https://x.com/i/communities/1817577213891334182" target="_blank" title='Twitter' className="text-gray-400 hover:text-blue-600 transition duration-300">
+          <a href="https://x.com/stablebase_org" target="_blank" title='Twitter' className="text-gray-400 hover:text-blue-600 transition duration-300">
             <FontAwesomeIcon icon={faTwitter} size="2x" />
           </a>
           <a href="https://github.com/svylabs" target="_blank" title='Github' className="text-gray-400 hover:text-gray-600 transition duration-300">
