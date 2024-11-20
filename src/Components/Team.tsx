@@ -14,7 +14,7 @@ const ExpertTeam: React.FC = () => {
     const teamMembers = [
         {
             name: 'Sridhar',
-            role: 'Founder, CEO & Developer',
+            role: 'Core Contributor',
             image: sridharImage,
             linkedin: 'https://www.linkedin.com/in/sridhar-g-b10902284/',
             github: 'https://github.com/svylabs',
@@ -22,13 +22,13 @@ const ExpertTeam: React.FC = () => {
         },
         {
             name: 'Gopalakrishnan',
-            role: 'Advisor - Protocol',
+            role: 'Contributor - Protocol',
             image: gopalImage,
             linkedin: 'https://www.linkedin.com/in/gopalakrishnan-ganesan-786618294/?originalSubdomain=in',
         },
         {
             name: 'Rohit Bharti',
-            role: 'Full stack developer',
+            role: 'Contributor - Full Stack',
             image: rohitImage,
             linkedin: 'https://www.linkedin.com/in/rohit-bharti-b9a437211/',
             github: 'https://github.com/rohitbharti279',
@@ -36,7 +36,7 @@ const ExpertTeam: React.FC = () => {
         },
         {
             name: 'Prajna',
-            role: 'Design & documentation',
+            role: 'Contributor - Frontend',
             image: prajnaImage,
         },
     ];

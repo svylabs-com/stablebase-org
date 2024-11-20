@@ -13,7 +13,7 @@ const What: React.FC = () => {
                     <img
                         src={protocolImage}
                         alt="Protocol Overview"
-                        className="w-full h-[100vh] object-fill xs:h-[95vh] sm-xs:h-[85vh] md:object-cover opacity-40 md:h-[30rem] lg:h-full lg:static lg:shadow-lg lg:rounded-md lg:opacity-100"
+                        className="w-full h-[100vh] object-fill xs:h-[80vh] sm-xs:h-[70vh] md:object-cover opacity-40 md:h-[20rem] lg:h-full lg:static lg:shadow-lg lg:rounded-md lg:opacity-100"
                     />
 
                     {/* Overlay Content for mobile and medium screens */}
@@ -25,22 +25,15 @@ const What: React.FC = () => {
                             CDP based Stablecoin Protocol
                         </h4>
                         <p className="text-base leading-relaxed mb-4 text-white">
-                            StableBase is a decentralized CDP based protocol that allows users to mint a USD-pegged stablecoin by depositing a collateral asset.
+                            StableBase is a decentralized CDP based protocol that allows users to mint $DFID, a USD-pegged stablecoin by depositing a collateral asset.
                             The protocol uses Liquidation and Redemption mechanisms to ensure the stability of the stablecoin, and offers yield to participants from the fees paid by users.
-                            The protocol aims to improve borrowing experience by providing an alternative mechanism to contract and expand money supply compared to traditional interest rates.
                         </p>
                         <h4 className="text-md md:text-xl font-semibold mb-3 text-violet-300">
-                            Caters to Different Risk Profiles
+                            Unique Pay As You Go pricing model
                         </h4>
                         <p className="text-base leading-relaxed mb-2 text-white">
-                            For users that can tolerate risk and have advanced capabilities, the protocol offers a 0% interest rate on loans, and in return expects the users to actively manage their positions.
+                            StableBase doesn't employ neither traditional interest rates where fees accrue whether you like it or not, nor origination fees, a large upfront fee you pay to borrow. Instead, it uses a simple pay as you go model where you pay a small fee(determined by market conditions) to jump up the redemption queue.
                         </p>
-                        <p className="text-base leading-relaxed mb-2 text-white">
-                            For regular users that are risk averse, the protocol offers predictable borrowing terms for a pre-paid fee.
-                        </p>
-                        <button className="px-4 py-2 md:px-6 md:py-3 mt-4 bg-violet-600 text-white font-semibold rounded-lg shadow-lg hover:bg-violet-700 transition ease-in-out duration-300">
-                            Learn More
-                        </button>
                     </div>
                 </div>
 
@@ -53,22 +46,15 @@ const What: React.FC = () => {
                         CDP based Stablecoin Protocol
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        StableBase is a decentralized CDP based protocol that allows users to mint a USD-pegged stablecoin by depositing a collateral asset.
-                        The protocol uses Liquidation and Redemption mechanisms to ensure the stability of the stablecoin, and offers yield to participants from the fees paid by users.
-                        The protocol aims to improve borrowing experience by providing an alternative mechanism to contract and expand money supply compared to traditional interest rates.
+                    StableBase is a decentralized CDP based protocol that allows users to mint $DFID, a USD-pegged stablecoin by depositing a collateral asset.
+                    The protocol uses Liquidation and Redemption mechanisms to ensure the stability of the stablecoin, and offers yield to participants from the fees paid by users.
                     </p>
                     <h4 className="text-md md:text-xl font-semibold mb-6 text-violet-300">
-                        Caters to Different Risk Profiles
+                    Unique Pay As You Go pricing model
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        For users that can tolerate risk and have advanced capabilities, the protocol offers a 0% interest rate on loans, and in return expects the users to actively manage their positions.
+                    StableBase doesn't employ neither traditional interest rates where fees accrue whether you like it or not, nor origination fees, a large upfront fee you pay to borrow. Instead, it uses a simple pay as you go model where you pay a small fee(determined by market conditions) to jump up the redemption queue.
                     </p>
-                    <p className="text-base lg:text-lg leading-relaxed mb-4">
-                        For regular users that are risk averse, the protocol offers predictable borrowing terms for a pre-paid fee
-                    </p>
-                    <button className="px-6 py-3 mt-4 bg-violet-600 text-white font-semibold rounded-lg shadow-lg hover:bg-violet-700 transition ease-in-out duration-300">
-                        Learn More
-                    </button>
                 </div>
             </div>
         </section>

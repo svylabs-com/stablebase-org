@@ -49,7 +49,7 @@ const ContactUs: React.FC = () => {
                                 required
                             >
                                 <option value="User">User, wanna try your product</option>
-                                <option value="LiquidityProvider">Liquidity Provider</option>
+                                <option value="LiquidityProvider">Yield Farmer</option>
                                 <option value="Investor">Investor</option>
                                 <option value="Institution">Institution</option>
                                 <option value="Developer">Developer</option>

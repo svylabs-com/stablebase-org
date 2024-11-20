@@ -30,19 +30,19 @@ const GetInvolved: React.FC = () => {
           <div className="space-y-4 p-4 border border-gray-700 rounded-lg">
             <h2 className="text-2xl font-semibold flex items-center">
               <FontAwesomeIcon icon={faUsers} className="text-violet-500 text-3xl mr-4" />
-              User
+              Users
             </h2>
             <div>
               <h3 className="text-xl font-semibold">Join our community</h3>
               <p className="text-gray-400">Join our community on twitter, discord, telegram etc, and ask questions, provide feedback, etc.</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold">Participate in testnet and Earn Rewards</h3>
-              <p className="text-gray-400">Users can participate in testnet so that we can finetune our systems, while earning rewards for participation</p>
+              <h3 className="text-xl font-semibold">Borrow</h3>
+              <p className="text-gray-400">Deposit $ETH collateral to borrow $DFID, a USD backed stablecoins</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold">Provide Liquidity and earn rewards after Launch</h3>
-              <p className="text-gray-400">You can borrow in mainnet after launch, or provide liquidity in stability pool and earn rewards from protocol fees.</p>
+              <h3 className="text-xl font-semibold">Use $DFID</h3>
+              <p className="text-gray-400">Use $DFID however you wish. It is supposed to hold a stable value</p>
             </div>
           </div>
 
@@ -50,23 +50,15 @@ const GetInvolved: React.FC = () => {
           <div className="space-y-4 p-4 border border-gray-700 rounded-lg">
             <h2 className="text-2xl font-semibold flex items-center">
               <FontAwesomeIcon icon={faWallet} className="text-violet-500 text-3xl mr-4" />
-              Rate Governors
+              Yield Farmers
             </h2>
             <div>
-              <h3 className="text-xl font-semibold">Participate in testnet</h3>
-              <p className="text-gray-400">Anyone can become a rate governor by locking up tokens in reserve pool and as you will have a real skin in the game in the stablebase ecosystem by setting the protocol parameters like target rate, reserve ratio and maintaining the stability of the system, testnet participation is crucial to fine tune your algorithms, software that automates the process.</p>
+              <h3 className="text-xl font-semibold">Earn Rewards</h3>
+              <p className="text-gray-400">Users can deposit $DFID stablecoins in stability pool and deposit in stability pool to earn $DFIRE Rewards</p>
             </div>
             <div>
-              <h3 className="text-xl font-semibold">Earn Testnet Rewards</h3>
-              <p className="text-gray-400">Earn Rewards for particpating in testnet that can be converted to mainnet tokens at launch</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold">Become a rate governor at Launch</h3>
-              <p className="text-gray-400">Put your automated system to use as you borrow from the protocol and set the rates for the system.</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-semibold">Earn from fee paid</h3>
-              <p className="text-gray-400">As a rate governor, protocol provides an amplified yield opportunity from the fee paid to the protocol</p>
+              <h3 className="text-xl font-semibold">Earn Protocol Fees </h3>
+              <p className="text-gray-400">Participants staking $DFID in stability pool earn 90% of protocol fees and participants staking $DFIRE in DFIRE Staking pool earn 10% protocol fees</p>
             </div>
           </div>
 
@@ -107,7 +99,11 @@ const GetInvolved: React.FC = () => {
             </h2>
             <div>
               <h3 className="text-xl font-semibold">Invest</h3>
-              <p className="text-gray-400">We are actively seeking investors to fund the development and expansion of the Stablebase Protocol. If you are interested in supporting a passionate team that wants to leave a mark in the DeFi segment, get in touch.</p>
+              <p className="text-gray-400">Mint $DFID and $DFIRE tokens yourselves by depositing collateral and staking to StabilityPool</p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Setup Liquidity Pools</h3>
+              <p className="text-gray-400">Setup Uniswap Liquidity Pools</p>
             </div>
           </div>
 

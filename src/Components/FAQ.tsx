@@ -22,7 +22,7 @@ const faqs = [
             "You can earn money on Liquity by providing stability liquidity and earning liquidation gains.",
     },
 ];
-
+/*
 const FAQ: React.FC = () => {
     const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
@@ -62,3 +62,4 @@ const FAQ: React.FC = () => {
 };
 
 export default FAQ;
+*/

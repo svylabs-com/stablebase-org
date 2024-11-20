@@ -8,7 +8,8 @@ import Timeline from "./Timeline";
 // import ContactUs from './ContactUs';
 import Footer from './Footer';
 import universe from "../assets/svg/future2.svg";
-import coin from "../assets/svg/coin.svg";
+import coin from "../assets/svg/dfid.svg";
+//import universe from "../assets/svg/bannerz.svg";
 
 const Home: React.FC = () => {
   return (
@@ -19,7 +20,7 @@ const Home: React.FC = () => {
       >
         <div className="flex flex-col gap-4 text-center md:text-left mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-black tracking-wide">STABLEBASE</h1>
-          <h2 className="text-sm sm:text-base md:text-lg text-gray-200">A Bitcoin backed stablecoin protocol unlocking trillion dollars worth of collateral</h2>
+          <h2 className="text-sm sm:text-base md:text-lg text-gray-200">A marketdriven stablecoin protocol with a simple pay as you go pricing</h2>
           <div className="flex justify-center md:justify-start">
             <a
               className="px-4 sm:px-6 py-2 sm:py-3 bg-white text-violet-600 font-semibold rounded-lg shadow-lg hover:bg-violet-500 hover:text-white transition duration-300 ease-in-out text-xs sm:text-base"

@@ -14,14 +14,14 @@ const Footer: React.FC = () => {
             <img src={logo} alt="StableBase Logo" className="w-20 h-20 object-cover rounded-full border-2 border-blue-500" />
             <div className="text-center md:text-left">
               <h1 className="text-3xl font-bold text-white">StableBase</h1>
-              <p className="text-sm text-gray-400 mt-2">Open source stablecoin protocol</p>
+              <p className="text-sm text-gray-400 mt-2">An Open source stablecoin protocol</p>
             </div>
           </div>
 
           {/* Info Text */}
           <div className="mt-6 md:mt-0 max-w-lg text-gray-400 text-center md:text-left leading-relaxed">
             <p>
-              StableBase is an open source, innovative market-driven protocol for minting stablecoins with unique stability mechanism and provides flexibile and predictable borrowing experience.
+              StableBase is an open source, market-driven protocol for minting stablecoins with a simple pay-as-you-go pricing model.
             </p>
           </div>
         </div>
@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
           <a href="https://github.com/svylabs" target="_blank" title='Github' className="text-gray-400 hover:text-gray-600 transition duration-300">
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
-          <a href="https://discord.gg/NSrR8qRd" target="_blank" title='Discord' className="text-gray-400 hover:text-indigo-600 transition duration-300">
+          <a href="https://discord.gg/8JzZGbB8" target="_blank" title='Discord' className="text-gray-400 hover:text-indigo-600 transition duration-300">
             <FontAwesomeIcon icon={faDiscord} size="2x" />
           </a>
           <a href="https://t.me/stablebase_org" target="_blank" title='Telegram' className="text-gray-400 hover:text-cyan-600 transition duration-300">
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
         {/* Copyright and Links */}
         <div className="flex flex-col md:flex-row justify-between items-center text-gray-500">
           <div className="mb-4 md:mb-0 text-center md:text-left">
-            &copy; {new Date().getFullYear()} StableBase. All rights reserved.
+            &copy; {new Date().getFullYear()} StableBase.
           </div>
           <div className="text-center">
             <a href="#" className="hover:underline text-gray-400">Privacy Policy</a> |

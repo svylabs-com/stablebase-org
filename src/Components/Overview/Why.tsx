@@ -26,7 +26,7 @@ const Why: React.FC = () => {
                     Achieve market stability with 0% Interest Rate 
                     </h4>
                     <p className="text-base lg:text-lg leading-relaxed mb-4">
-                    Currently only one protocol has 0% interest rate, however the protocol is inefficient in all market conditions. Our goal with this protocol is to achieve a stablecoin design with 0% interest rate. To achieve it, we borrow policy tools from traditional finance- namely, the Cash Reserve Ratio or simply we call it Reserve Ratio to contract and expand money supply, enabling borrowing at 0% interest rate.
+                    Currently only one protocol has 0% interest rate, however the protocol is inefficient in all market conditions. Our goal with this protocol is to achieve a stablecoin design with 0% interest rates with users only paying market driven fees.
                     </p>
                 </div>
 
@@ -59,7 +59,7 @@ const Why: React.FC = () => {
                             Achieve market stability with 0% Interest Rate 
                         </h4>
                         <p className="text-base lg:text-lg leading-relaxed mb-4">
-                            Currently only one protocol has 0% interest rate, however the protocol is inefficient in all market conditions. Our goal with this protocol is to achieve a stablecoin design with 0% interest rate. To achieve it, we borrow policy tools from traditional finance- namely, the Cash Reserve Ratio or simply we call it Reserve Ratio to contract and expand money supply, enabling borrowing at 0% interest rate.
+                        Currently only one protocol has 0% interest rate, however the protocol is inefficient in all market conditions. Our goal with this protocol is to achieve a stablecoin design with 0% interest rates with users only paying market driven fees.
                         </p>
                     </div>
                 </div>
