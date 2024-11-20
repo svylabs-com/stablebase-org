@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.f7c1fc38.css",
-    "main.js": "/static/js/main.16d00a86.js",
+    "main.css": "/static/css/main.71fba953.css",
+    "main.js": "/static/js/main.866dece3.js",
     "static/js/453.a43f6414.chunk.js": "/static/js/453.a43f6414.chunk.js",
-    "static/media/coin.svg": "/static/media/coin.1cf3f025f76b2a712c489257b33cc5cc.svg",
+    "static/media/dfid.svg": "/static/media/dfid.f31fbcf69d547244943ef5b3c150f238.svg",
     "static/media/protocol-how.png": "/static/media/protocol-how.f53dc5348b8e781eded2.png",
     "static/media/future2.svg": "/static/media/future2.2c8af36b4bff804626d689e48ddcc9a8.svg",
     "static/media/rohit.jpg": "/static/media/rohit.b48fc6eefa16bd6c8363.jpg",
@@ -15,12 +15,12 @@
     "static/media/twitter-brands-solid.svg": "/static/media/twitter-brands-solid.642c974d31c5246609a71d6c3e4d7067.svg",
     "index.html": "/index.html",
     "static/media/linkedin-brands-solid.svg": "/static/media/linkedin-brands-solid.633a312873229ec1d806b66f9d770fb7.svg",
-    "main.f7c1fc38.css.map": "/static/css/main.f7c1fc38.css.map",
-    "main.16d00a86.js.map": "/static/js/main.16d00a86.js.map",
+    "main.71fba953.css.map": "/static/css/main.71fba953.css.map",
+    "main.866dece3.js.map": "/static/js/main.866dece3.js.map",
     "453.a43f6414.chunk.js.map": "/static/js/453.a43f6414.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7c1fc38.css",
-    "static/js/main.16d00a86.js"
+    "static/css/main.71fba953.css",
+    "static/js/main.866dece3.js"
   ]
 }
