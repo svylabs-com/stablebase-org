@@ -24,7 +24,7 @@ const Home: React.FC = () => {
           <div className="flex justify-center md:justify-start">
             <a
               className="px-4 sm:px-6 py-2 sm:py-3 bg-white text-violet-600 font-semibold rounded-lg shadow-lg hover:bg-violet-500 hover:text-white transition duration-300 ease-in-out text-xs sm:text-base"
-              href='https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.pdf'
+              href='https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.md'
             >
               Get started with whitepaper
             </a>

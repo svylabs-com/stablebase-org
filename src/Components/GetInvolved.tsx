@@ -103,7 +103,7 @@ const GetInvolved: React.FC = () => {
             </div>
             <div>
               <h3 className="text-xl font-semibold">Setup Liquidity Pools</h3>
-              <p className="text-gray-400">Setup Uniswap Liquidity Pools</p>
+              <p className="text-gray-400">Setup Uniswap Liquidity Pools to make it easier for everyone to access</p>
             </div>
           </div>
 
