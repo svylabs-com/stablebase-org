@@ -34,17 +34,17 @@ const ExpertTeam: React.FC = () => {
             github: 'https://github.com/rohitbharti279',
             twitter: 'https://x.com/RohitBh44771576'
         },
-        {
-            name: 'Prajna',
-            role: 'Contributor - Frontend',
-            image: prajnaImage,
-        },
+        // {
+        //     name: 'Prajna',
+        //     role: 'Contributor - Frontend',
+        //     image: prajnaImage,
+        // },
     ];
 
     return (
         <section className="my-10 flex flex-col items-center m-3 mt-5 gap-3">
             <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl">
-                Our <span className="text-violet-600">Team</span>
+                Our <span className="text-yellow-600">Team</span>
             </h2>
             <p className="text-center px-4 md:px-10 text-xs">
                 
