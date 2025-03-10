@@ -10,11 +10,11 @@ const How: React.FC = () => {
                     <img
                         src={protocolImage}
                         alt="Protocol Overview"
-                        className="w-full h-[95vh] object-fill xs:h-[80vh] sm-xs:h-[75vh] md:object-cover opacity-40 md:h-[30rem] lg:h-full lg:static lg:shadow-lg lg:rounded-md bg-black lg:opacity-100"
+                        className="w-full h-[95vh] object-fill xs:h-[80vh] sm-xs:h-[75vh] md:object-cover opacity-40 md:h-[30rem] lg:h-full lg:static lg:shadow-lg lg:rounded-md bg-[#161619] lg:opacity-100"
                     />
 
                     {/* Overlay Content for mobile and medium screens */}
-                    <div className="absolute inset-0 bg-black bg-opacity-50 lg:hidden flex flex-col justify-center items-center text-center p-2">
+                    <div className="absolute inset-0 bg-[#161619] bg-opacity-50 lg:hidden flex flex-col justify-center items-center text-center p-2">
                         <h2 className="text-lg md:text-3xl font-semibold mb-4 text-yellow-500">
                             Key Innovations
                         </h2>

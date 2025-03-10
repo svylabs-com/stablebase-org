@@ -17,7 +17,7 @@ const What: React.FC = () => {
                     />
 
                     {/* Overlay Content for mobile and medium screens */}
-                    <div className="absolute inset-0 bg-black bg-opacity-50 lg:hidden flex flex-col justify-center items-center text-center p-2">
+                    <div className="absolute inset-0 bg-[#161619] bg-opacity-50 lg:hidden flex flex-col justify-center items-center text-center p-2">
                         <h2 className="text-lg md:text-3xl font-semibold mb-2  text-yellow-500">
                             WHAT IS STABLEBASE
                         </h2>
