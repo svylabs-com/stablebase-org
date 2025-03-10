@@ -44,32 +44,33 @@ const Header: React.FC = () => {
 
             <nav className="hidden md:flex items-center">
                 <ul className='flex gap-5 lg:gap-8 items-center'>
-                    {/*
-                    <li className="group relative">
-                        <a
-                            href="#team"
-                            className="text-gray-300 lg:font-medium group-hover:text-orange-500 transition-colors duration-300"
-                        >
-                            Team
-                        </a>
-                        <span className="absolute left-0 bottom-[-2px] w-0 h-0.5 bg-orange-500 group-hover:w-full transition-all duration-300"></span>
-                    </li>*/}
                     <li className="group relative">
                         <a
                             href="https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.pdf"
-                            className="text-gray-300 lg:font-medium group-hover:text-orange-500 transition-colors duration-300"
+                            className="text-gray-300 lg:font-medium group-hover:text-[#FEBD38] transition-colors duration-300"
                             target='_blank'
                         >
                             Docs
                         </a>
-                        <span className="absolute left-0 bottom-[-2px] w-0 h-0.5 bg-orange-500 group-hover:w-full transition-all duration-300"></span>
+                        <span className="absolute left-0 bottom-[-2px] w-0 h-0.5 bg-[#FEBD38] group-hover:w-full transition-all duration-300"></span>
                     </li>
                     <li>
-                        <button onClick={() => { window.location.href = '/get-involved'; }}
-                            className="px-6 py-2 border-2 border-violet-600 text-gray-300 lg:font-semibold rounded-3xl shadow-lg hover:bg-violet-700 hover:border-violet-300 hover:text-white transition duration-300 ease-in-out">
-                            Get Involved
-                        </button>
+                        <Link to="/get-involved" className="relative inline-block rounded-3xl p-[2px] bg-gradient-to-b from-[#FFD572] to-[#FEBD38]">
+                            <span className="block px-6 py-1.5 bg-black text-gray-300 lg:font-semibold rounded-3xl shadow-lg hover:bg-gray-900 hover:text-white transition duration-300 ease-in-out">
+                                Get Involved
+                            </span>
+                        </Link>
                     </li>
+                    <li>
+                        <a href="https://app.stablebase.org" target="_blank" rel="noopener noreferrer"
+                            className="relative inline-block rounded-3xl p-[2px] bg-gradient-to-b from-[#FFD572] to-[#FEBD38]">
+                            <span className="block px-6 py-1.5 bg-black text-gray-300 lg:font-semibold rounded-3xl shadow-lg hover:bg-gray-900 hover:text-white transition duration-300 ease-in-out">
+                                Launch App
+                            </span>
+                        </a>
+
+                    </li>
+
                 </ul>
             </nav>
 
@@ -95,20 +96,44 @@ const Header: React.FC = () => {
 
             {/* Mobile Dropdown Menu */}
             {isMenuOpen && (
-                <div ref={modalRef} className="md:hidden absolute top-16 right-4 w-48 bg-slate-800 shadow-lg rounded-lg flex flex-col items-start p-4 gap-3">
-                    {/*
-                    <a href="#team" className="text-gray-300 hover:text-violet-500 font-medium w-full">
-                        Team
-                    </a>
-                    */}
-                    <a href="https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.md" className="text-gray-300 hover:text-violet-500 font-medium w-full">
+                <div
+                    ref={modalRef}
+                    className="md:hidden absolute top-16 right-4 w-[90%] max-w-xs bg-black/80 backdrop-blur-md shadow-lg rounded-lg flex flex-col items-center p-4 gap-3 transition-all duration-300 ease-in-out "
+                >
+                    <a
+                        href="https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.pdf"
+                        className="text-gray-300 hover:text-[#FEBD38] font-medium w-full text-center py-2"
+                        target='_blank'
+                        onClick={() => setIsMenuOpen(false)}
+                    >
                         Docs
                     </a>
-                    <button onClick={() => { window.location.href = '/get-involved'; }} className="w-full px-6 py-2 border-2 border-violet-600 text-gray-300 font-semibold rounded-3xl shadow-lg hover:bg-violet-700 hover:border-violet-300 hover:text-white transition duration-300 ease-in-out">
-                        Get Involved
-                    </button>
+
+                    <Link
+                        to="/get-involved"
+                        className="relative inline-block rounded-3xl p-[2px] bg-gradient-to-b from-[#FFD572] to-[#FEBD38] w-full text-center"
+                        onClick={() => setIsMenuOpen(false)}
+                    >
+                        <span className="block px-6 py-1.5 bg-black text-gray-300 font-semibold rounded-3xl shadow-lg hover:bg-gray-900 hover:text-white transition duration-300 ease-in-out">
+                            Get Involved
+                        </span>
+                    </Link>
+
+                    <a
+                        href="https://app.stablebase.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="relative inline-block rounded-3xl p-[2px] bg-gradient-to-b from-[#FFD572] to-[#FEBD38] w-full text-center"
+                        onClick={() => setIsMenuOpen(false)}
+                    >
+                        <span className="block px-6 py-1.5 bg-black text-gray-300 font-semibold rounded-3xl shadow-lg hover:bg-gray-900 hover:text-white transition duration-300 ease-in-out">
+                            Launch App
+                        </span>
+                    </a>
                 </div>
             )}
+
+
         </header>
     );
 };
