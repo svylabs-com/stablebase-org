@@ -1,44 +1,44 @@
 import React from 'react';
+import GradientBackgroundContainer from "./GradientBackgroundContainer/GradientBackgroundContainer";
 
 const Motivation: React.FC = () => {
     return (
-        <section className="bg-black text-white py-10 md:py-16 px-6">
-            <div className="container mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold text-center mb-10  text-yellow-5 text-[#808080]">Guiding Principles</h2>
-                <p className="text-lg md:text-xl leading-relaxed mb-8 text-center">
-                    
-                </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-                    {/* Card 1 */}
-                    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-                        <h3 className="text-2xl font-semibold mb-4  text-yellow-300">Open Source</h3>
-                        <p>
-                            StableBase is committed to building an open source protocol that is free to be used, modified by anyone.
-                        </p>
-                    </div>
-                    {/* Card 2 */}
-                    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-                        <h3 className="text-2xl font-semibold mb-4 text-yellow-300">Market Driven Approach</h3>
-                        <p>
-                            The protocol is designed to be market driven with a base interest rate / fee of 0%.
-                        </p>
-                    </div>
-                    {/* Card 3 */}
-                    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-                        <h3 className="text-2xl font-semibold mb-4 text-yellow-300">Decentralized and Immutable</h3>
-                        <p>
-                            Protocol is designed to be decentralized and immutable.
-                        </p>
-                    </div>
-                    {/* Card 4 */}
-                    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
-                        <h3 className="text-2xl font-semibold mb-4 text-yellow-300">Focus on borrower experience</h3>
-                        <p>
-                            The protocol is designed with borrowers in mind, with the goal of making it flexible and predictable for borrowers.
-                        </p>
+        <section className="py-10 px-6">
+                <div className="space-y-8 2xl:space-y-10 container mx-auto">
+                    <h2 className='text-xl lg:text-2xl 2xl:text-3xl font-bold text-[#808080] text-center'>
+                    Guiding Principles
+                    </h2>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 2xl:gap-10">
+                        {[
+                            {
+                                title: 'Open Source',
+                                content: 'StableBase is committed to building an open source protocol that is free to be used, modified by anyone.',
+                            },
+                            {
+                                title: 'Market Driven Approach',
+                                content: 'The protocol is designed to be market driven with a base interest rate / fee of 0%.',
+                            },
+                            {
+                                title: 'Decentralized and Immutable',
+                                content: 'Protocol is designed to be decentralized and immutable.',
+                            },
+                            {
+                                title: 'Focus on borrower experience',
+                                content: 'The protocol is designed with borrowers in mind, with the goal of making it flexible and predictable for borrowers.',
+                            },
+                        ].map((item, i) => (
+                            <GradientBackgroundContainer colorRight="#7ed372b3">
+                                <div
+                                    key={i}
+                                    className="p-6"
+                                >
+                                    <h3 className="text-xl 2xl:text-2xl font-semibold text-[#7ed372b3] mb-3">{item.title}</h3>
+                                    <p className="2xl:text-lg text-gray-300">{item.content}</p>
+                                </div>
+                            </GradientBackgroundContainer>
+                        ))}
                     </div>
                 </div>
-            </div>
         </section>
     );
 };
