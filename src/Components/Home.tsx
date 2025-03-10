@@ -23,7 +23,7 @@ const Home: React.FC = () => {
           <h2 className="text-sm sm:text-base md:text-lg text-gray-200">A marketdriven stablecoin protocol with a simple pay as you go pricing</h2>
           <div className="flex justify-center md:justify-start">
             <a
-              className="px-4 sm:px-6 py-2 sm:py-3 bg-white text-yellow-500 font-semibold rounded-lg shadow-lg hover:bg-yellow-600 hover:text-white transition duration-300 ease-in-out text-xs sm:text-base"
+              className="px-4 sm:px-6 py-2 sm:py-3 bg-yellow-600 text-white font-semibold rounded-lg shadow-lg hover:bg-yellow-500 hover:text-white transition duration-300 ease-in-out text-xs sm:text-base"
               href='https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.md'
             >
               Get started with whitepaper

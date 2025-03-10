@@ -27,9 +27,8 @@ const Motivation: React.FC = () => {
                                 content: 'The protocol is designed with borrowers in mind, with the goal of making it flexible and predictable for borrowers.',
                             },
                         ].map((item, i) => (
-                            <GradientBackgroundContainer colorRight="#7ed372b3">
+                            <GradientBackgroundContainer key={i} colorRight="#7ed372b3">
                                 <div
-                                    key={i}
                                     className="p-6"
                                 >
                                     <h3 className="text-xl 2xl:text-2xl font-semibold text-[#7ed372b3] mb-3">{item.title}</h3>
