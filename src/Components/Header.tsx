@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from "react-router-dom";
-import logo from "../assets/photos/logo.jpeg";
+import StablebaseIcon from "../assets/photos/stablebase.png";
 
 const Header: React.FC = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,10 +35,9 @@ const Header: React.FC = () => {
     return (
         <header className="shadow-md sticky top-0 z-50 p-4 md:px-6 lg:px-10 flex justify-between items-center">
             <Link to="/" className="flex items-center">
-                <img src={logo} alt="Logo" className="h-12 w-12 mr-3 rounded-full" />
-                {/* <h4 className="text-2xl font-bold">Stablebase</h4> */}
-                <h4 className="text-3xl font-bold bg-gradient-to-r from-stone-300 to-violet-600 text-transparent bg-clip-text">
-                    Stablebase
+                <img src={StablebaseIcon} alt="Logo" className="h-12 w-12 mr-3 rounded-full" />
+                <h4 className="text-3xl font-bold bg-gradient-to-r from-[#FFD572] to-[#FEBD38] text-transparent bg-clip-text tracking-wide">
+                    StableBase
                 </h4>
 
             </Link>
