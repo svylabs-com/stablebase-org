@@ -62,7 +62,7 @@ const Timeline: React.FC = () => {
 
     return (
         <section className="relative text-white py-10 lg:px-10">
-            <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl mb-10">Project Timeline</h2>
+            <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl mb-10 text-[#808080]">Project Timeline</h2>
             <div className="container mx-auto relative">
                 {/* Timeline vertical line */}
                 <div className="absolute w-1 bg-gray-700 h-full left-1/2 transform -translate-x-1/2 z-0"></div>

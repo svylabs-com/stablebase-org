@@ -42,18 +42,18 @@ const ExpertTeam: React.FC = () => {
     ];
 
     return (
-        <section className="my-10 flex flex-col items-center m-3 mt-5 gap-3">
-            <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl">
-                Our <span className="text-yellow-600">Team</span>
+        <section className="flex flex-col items-center gap-3 mt-5 lg:mt-8">
+            <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl text-[#808080]">
+                Our <span className="text-yellow-700">Team</span>
             </h2>
             <p className="text-center px-4 md:px-10 text-xs">
                 
             </p>
 
             {/* Team Members */}
-            <div className="flex flex-col gap-5 md:flex-row justify-center pt-4">
+            <div className="flex flex-col gap-5 md:flex-row justify-center lg:pt-2">
                 {teamMembers.map((member, index) => (
-                    <div key={index} className="flex flex-col items-center p-6 px-14 md:p-4 md:px-0 lg:px-4 border border-gray-700 rounded-md shadow-lg">
+                    <div key={index} className="flex flex-col items-center p-6 px-14 md:p-4 md:px-2 lg:px-4 border border-gray-700 rounded-md shadow-lg">
                         <img src={member.image} alt={member.name} className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full" />
                         <p className="font-bold mt-3 text-center text-lg text-nowrap">{member.name}</p>
                         <p className="text-gray-400 text-nowrap">{member.role}</p>
