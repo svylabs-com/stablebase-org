@@ -60,15 +60,14 @@ const Why: React.FC = () => {
                 </div>
             </div>
 
-
             {/* Overlay Content for mobile and medium screens */}
             <div className="lg:hidden relative">
                 <img
                     src={protocolImage}
-                    alt="Protocol Overview"
+                    alt="Why We Are Building"
                     className="w-full opacity-30 object-fill h-[115vh] xs:h-[100vh] sm-xs:h-[88vh] md:h-[73vh]"
                 />
-                <div className="absolute inset-0 bg-[#161619] bg-opacity-50 flex flex-col gap-6 justify-center items-center text-center p-2 md:p-4">
+                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col gap-6 justify-center items-center text-center p-2 md:p-4">
                     <h2 className="text-lg md:text-2xl font-bold text-[#78CEF9b3]">
                         Motivation
                     </h2>
