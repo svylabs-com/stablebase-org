@@ -5,7 +5,7 @@ const Motivation: React.FC = () => {
     return (
         <section className="py-10 px-6">
                 <div className="space-y-8 2xl:space-y-10 container mx-auto">
-                    <h2 className='text-xl lg:text-2xl 2xl:text-3xl font-bold text-[#808080] text-center'>
+                    <h2 className='text-2xl lg:text-3xl font-bold text-[#808080] text-center'>
                     Guiding Principles
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 2xl:gap-10">
