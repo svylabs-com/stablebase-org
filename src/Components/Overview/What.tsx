@@ -23,7 +23,7 @@ const What: React.FC = () => {
                 <div className='lg:w-1/2 lg:bg-[#808080] lg:p-6 rounded-xl' style={{ height: imageHeight }}> {/* lg:bg-[#fcafddb3] */}
                     <img
                         src={protocolImage}
-                        alt="Protocol Overview"
+                        alt="What We Are Building"
                         className="w-full h-full"
                     />
                 </div>
@@ -66,11 +66,11 @@ const What: React.FC = () => {
 
                 {/* Overlay Content for mobile and medium screens */}
                 <div className="absolute inset-0 bg-[#161619] bg-opacity-50 flex flex-col gap-6 justify-center items-center text-center p-2 md:p-4">
-                    <h2 className="text-lg md:text-2xl font-bold text-[#808080]">
+                    <h2 className="text-lg md:text-2xl font-bold text-[#fd90d1b3]">
                         WHAT IS STABLEBASE
                     </h2>
                     <div className='space-y-4'>
-                        <h4 className="text-lg md:text-xl font-semibold text-yellow-300">
+                        <h4 className="text-lg md:text-xl font-semibold text-[#fbabdbb3]">
                             CDP based Stablecoin Protocol
                         </h4>
                         <p className="text-base leading-relaxed text-white">
@@ -79,14 +79,13 @@ const What: React.FC = () => {
                         </p>
                     </div>
                     <div className='space-y-4'>
-                        <h4 className="text-lg md:text-xl font-semibold text-yellow-300">
+                        <h4 className="text-lg md:text-xl font-semibold text-[#fbabdbb3]">
                             Unique Pay As You Go pricing model
                         </h4>
                         <p className="text-base leading-relaxed text-white">
                             StableBase doesn't employ neither traditional interest rates where fees accrue whether you like it or not, nor origination fees, a large upfront fee you pay to borrow. Instead, it uses a simple pay as you go model where you pay a small fee(determined by market conditions) to jump up the redemption queue.
                         </p>
                     </div>
-
                 </div>
             </div>
         </section>

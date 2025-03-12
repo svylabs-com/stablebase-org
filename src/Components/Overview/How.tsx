@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import protocolImage from '../../assets/photos/protocol-how.png';
+import GradientBackgroundContainer from "../GradientBackgroundContainer/GradientBackgroundContainer";
 
 const How: React.FC = () => {
+    const contentRef = useRef<HTMLDivElement>(null);
+    const [imageHeight, setImageHeight] = useState<number>(0);
+
+    useEffect(() => {
+        if (contentRef.current) {
+            setImageHeight(contentRef.current.clientHeight);
+        }
+    }, [contentRef]);
+    console.log('imageHeight', imageHeight);
     return (
-        <section className="my-10 lg:px-10 lg:my-20">
+        <section className="lg:px-10 2xl:px-14 mt-10 lg:mt-16">
             <div className="container mx-auto flex flex-col lg:flex-row justify-between">
                 {/* Left Side Image (Visible as background on mobile) */}
                 <div className="relative w-full lg:w-1/2 lg:bg-gray-400 lg:p-6 rounded-md">
