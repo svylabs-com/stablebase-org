@@ -10,7 +10,7 @@ function App() {
   return (
     <MantineProvider>
       <Router>
-        <div className="bg-[#161619] text-white min-h-screen">
+        <div className="bg-[#161619] text-gray-100 min-h-screen">
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />

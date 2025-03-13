@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import GradientBackgroundContainer from "./GradientBackgroundContainer/GradientBackgroundContainer";
 
 const ContactUs: React.FC = () => {
     const [name, setName] = useState('');
@@ -14,8 +15,8 @@ const ContactUs: React.FC = () => {
 
     return (
         // <section className="py-10 px-6 lg:p-10">
-        <section className="px-6 lg:px-10">
-            <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl mb-10">Contact <span className="text-yellow-600">Us</span></h2>
+        <section className="px-6 lg:px-10 space-y-5 text-gray-300">
+            <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl text-[#808080]">Contact <span className="text-yellow-700">Us</span></h2>
             <div className="container mx-auto flex flex-col md:flex-row justify-between md:items-center h-full">
                 <div className="md:w-1/2 mb-10 md:mb-0 flex flex-col justify-center items-center h-full">
                     <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-center text-yellow-600">Get In Touch</h2>
@@ -25,7 +26,6 @@ const ContactUs: React.FC = () => {
                 </div>
 
                 <div className="md:w-1/2 bg-gray-800 p-6 rounded-lg shadow-lg">
-                    <h3 className="text-xl lg:text-2xl font-semibold mb-4"></h3>
                     <form onSubmit={handleSubmit}>
                         <div className="mb-3">
                             <label className="block mb-2 text-sm font-medium" htmlFor="name">Your Name</label>
@@ -85,7 +85,7 @@ const ContactUs: React.FC = () => {
 
                         <button
                             type="submit"
-                            className="w-full py-3 bg-yellow-600 text-white font-semibold rounded-lg shadow-lg hover:bg-yellow-700 transition ease-in-out duration-300"
+                            className="w-full py-3 bg-yellow-600 text-[#161619] font-semibold rounded-lg shadow-lg hover:bg-yellow-500 hover:text-black transition ease-in-out duration-300"
                         >
                             Send
                         </button>

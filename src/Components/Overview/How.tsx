@@ -26,13 +26,13 @@ const How: React.FC = () => {
 
                 {/* Right Side Content for Desktop */}
                 <div ref={contentRef} className="lg:w-1/2">
-                    <GradientBackgroundContainer colorRight="#f0df7fb3">
+                    <GradientBackgroundContainer colorRight="#faaf25b3">
                         <div className='space-y-6 p-4 xl:p-6 2xl:p-8 text-gray-300'>
-                            <h2 className='text-xl lg:text-2xl 2xl:text-3xl font-bold text-[#f0df7fb3]'>
+                            <h2 className='text-xl lg:text-2xl 2xl:text-3xl font-bold text-[#faaf25b3]'>
                                 Key Innovations
                             </h2>
                             <div className='space-y-4'>
-                                <h4 className="text-md md:text-xl font-semibold text-[#f6eaa3b3]">
+                                <h4 className="text-md md:text-xl font-semibold text-[#fbc96bb3]">
                                     Pay As You Go Pricing model
                                 </h4>
                                 <p className="text-base lg:text-lg leading-relaxed">
@@ -41,7 +41,7 @@ const How: React.FC = () => {
                                 </p>
                             </div>
                             <div className='space-y-4'>
-                                <h4 className="text-md md:text-xl font-semibold text-[#f6eaa3b3]">
+                                <h4 className="text-md md:text-xl font-semibold text-[#fbc96bb3]">
                                     Market determined fees
                                 </h4>
                                 <p className="text-base lg:text-lg leading-relaxed">
@@ -49,7 +49,7 @@ const How: React.FC = () => {
                                 </p>
                             </div>
                             <div className='space-y-4'>
-                                <h4 className="text-md md:text-xl font-semibold text-[#f6eaa3b3]">
+                                <h4 className="text-md md:text-xl font-semibold text-[#fbc96bb3]">
                                     Bitcoin backed loans
                                 </h4>
                                 <p className="text-base lg:text-lg leading-relaxed">
@@ -68,11 +68,11 @@ const How: React.FC = () => {
                     className="w-full opacity-30 object-fill h-[97vh] xs:h-[87vh] sm-xs:h-[80vh] md:h-[65vh] bg-black"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col gap-6 justify-center items-center text-center p-2 md:p-4 text-gray-300">
-                    <h2 className="text-lg md:text-2xl font-bold text-[#f0df7fb3]">
+                    <h2 className="text-lg md:text-2xl font-bold text-[#faaf25b3]">
                         Key Innovations
                     </h2>
                     <div className='space-y-4'>
-                        <h4 className="text-lg md:text-xl font-semibold text-[#f6eaa3b3]">
+                        <h4 className="text-lg md:text-xl font-semibold text-[#fbc96bb3]">
                             Pay As You Go Pricing model
                         </h4>
                         <p className="text-base leading-relaxed">
@@ -81,7 +81,7 @@ const How: React.FC = () => {
                         </p>
                     </div>
                     <div className='space-y-4'>
-                        <h4 className="text-lg md:text-xl font-semibold text-[#f6eaa3b3]">
+                        <h4 className="text-lg md:text-xl font-semibold text-[#fbc96bb3]">
                             Market determined fees
                         </h4>
                         <p className="text-base leading-relaxed">
@@ -89,7 +89,7 @@ const How: React.FC = () => {
                         </p>
                     </div>
                     <div className='space-y-4'>
-                        <h4 className="text-lg md:text-xl font-semibold text-[#f6eaa3b3]">
+                        <h4 className="text-lg md:text-xl font-semibold text-[#fbc96bb3]">
                             Bitcoin backed loans
                         </h4>
                         <p className="text-base leading-relaxed">
