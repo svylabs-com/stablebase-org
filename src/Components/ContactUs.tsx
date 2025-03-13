@@ -13,7 +13,8 @@ const ContactUs: React.FC = () => {
     };
 
     return (
-        <section className="py-10 px-6 lg:p-10">
+        // <section className="py-10 px-6 lg:p-10">
+        <section className="px-6 lg:px-10">
             <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl mb-10">Contact <span className="text-yellow-600">Us</span></h2>
             <div className="container mx-auto flex flex-col md:flex-row justify-between md:items-center h-full">
                 <div className="md:w-1/2 mb-10 md:mb-0 flex flex-col justify-center items-center h-full">

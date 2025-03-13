@@ -82,8 +82,8 @@ const Timeline: React.FC = () => {
                                     index % 2 === 0 ? 'bg-gray-600' : 'bg-gray-500'
                                 }`}
                             >
-                                <h3 className="text-lg font-semibold">{item.date}</h3>
-                                <p className="mt-2 text-sm">{item.content}</p>
+                                <h3 className="text-lg font-semibold text-gray-100">{item.date}</h3>
+                                <p className="mt-2 text-sm text-gray-300">{item.content}</p>
                             </div>
                         </div>
 

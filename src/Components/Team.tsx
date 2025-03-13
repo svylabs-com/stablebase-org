@@ -55,7 +55,7 @@ const ExpertTeam: React.FC = () => {
                 {teamMembers.map((member, index) => (
                     <div key={index} className="flex flex-col items-center p-6 px-14 md:p-4 md:px-2 lg:px-4 border border-gray-700 rounded-md shadow-lg">
                         <img src={member.image} alt={member.name} className="w-32 h-32 md:w-40 md:h-40 object-cover rounded-full" />
-                        <p className="font-bold mt-3 text-center text-lg text-nowrap">{member.name}</p>
+                        <p className="font-bold mt-3 text-center text-lg text-nowrap text-gray-100">{member.name}</p>
                         <p className="text-gray-400 text-nowrap">{member.role}</p>
 
                         {/* Social Media Icons */}

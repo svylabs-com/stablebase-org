@@ -31,7 +31,7 @@ const What: React.FC = () => {
                 {/* Right Side Content for Desktop */}
                 <div ref={contentRef} className="lg:w-1/2">
                     <GradientBackgroundContainer colorRight="#fd90d1b3">
-                        <div className='space-y-6 p-4 xl:p-6 2xl:p-8'>
+                        <div className='space-y-6 p-4 xl:p-6 2xl:p-8 text-gray-300'>
                             <h2 className='text-xl lg:text-2xl 2xl:text-3xl font-bold text-[#fd90d1b3]'>
                                 WHAT IS STABLEBASE
                             </h2>
@@ -64,7 +64,7 @@ const What: React.FC = () => {
                     alt="What We Are Building"
                     className="w-full opacity-30 object-fill h-[90vh] xs:h-[80vh] sm-xs:h-[72vh] md:h-[55vh]"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col gap-6 justify-center items-center text-center p-2 md:p-4">
+                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col gap-6 justify-center items-center text-center p-2 md:p-4 text-gray-300">
                     <h2 className="text-lg md:text-2xl font-bold text-[#fd90d1b3]">
                         WHAT IS STABLEBASE
                     </h2>
@@ -72,7 +72,7 @@ const What: React.FC = () => {
                         <h4 className="text-lg md:text-xl font-semibold text-[#fbabdbb3]">
                             CDP based Stablecoin Protocol
                         </h4>
-                        <p className="text-base leading-relaxed text-white">
+                        <p className="text-base leading-relaxed">
                             StableBase is a decentralized CDP based protocol that allows users to mint $DFID, a USD-pegged stablecoin by depositing a collateral asset.
                             The protocol uses Liquidation and Redemption mechanisms to ensure the stability of the stablecoin, and offers yield to participants from the fees paid by users.
                         </p>
@@ -81,7 +81,7 @@ const What: React.FC = () => {
                         <h4 className="text-lg md:text-xl font-semibold text-[#fbabdbb3]">
                             Unique Pay As You Go pricing model
                         </h4>
-                        <p className="text-base leading-relaxed text-white">
+                        <p className="text-base leading-relaxed">
                             StableBase doesn't employ neither traditional interest rates where fees accrue whether you like it or not, nor origination fees, a large upfront fee you pay to borrow. Instead, it uses a simple pay as you go model where you pay a small fee(determined by market conditions) to jump up the redemption queue.
                         </p>
                     </div>
