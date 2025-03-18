@@ -36,18 +36,17 @@ const Header: React.FC = () => {
         <header className="shadow-md sticky top-0 z-50 p-4 md:px-6 lg:px-10 flex justify-between items-center">
             <Link to="/" className="flex items-center">
                 <img src={StablebaseIcon} alt="Logo" className="h-12 w-12 mr-3 rounded-full" />
-                <h4 className="text-3xl font-bold bg-gradient-to-r from-[#FFD572] to-[#FEBD38] text-transparent bg-clip-text tracking-wide">
+                <h4 className="text-3xl font-bold tracking-wide">
                     StableBase
                 </h4>
-
             </Link>
 
             <nav className="hidden md:flex items-center">
-                <ul className='flex gap-5 lg:gap-8 items-center'>
+                <ul className='flex gap-5 lg:gap-8 items-center text-[#E9E9E9] lg:font-medium'>
                     <li className="group relative">
                         <a
                             href="https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.pdf"
-                            className="text-gray-300 lg:font-medium group-hover:text-[#FEBD38] transition-colors duration-300"
+                            className="group-hover:text-[#FEBD38] transition-colors duration-300"
                             target='_blank'
                         >
                             Docs
@@ -55,18 +54,15 @@ const Header: React.FC = () => {
                         <span className="absolute left-0 bottom-[-2px] w-0 h-0.5 bg-[#FEBD38] group-hover:w-full transition-all duration-300"></span>
                     </li>
                     <li>
-                        <Link to="/get-involved" className="relative inline-block rounded-3xl p-[2px] bg-gradient-to-b from-[#FFD572] to-[#FEBD38]">
-                            <span className="block px-6 py-1.5 bg-black text-gray-300 lg:font-semibold rounded-3xl shadow-lg hover:bg-gray-900 hover:text-white transition duration-300 ease-in-out">
-                                Get Involved
-                            </span>
+                        <Link to="/get-involved" className="p-2 px-5 rounded-3xl shadow-lg border-[1.5px] border-[#FEBD38] hover:border-[#906f2d] hover:text-white hover:rounded-none transition duration-300 ease-in-out">
+                            Get Involved
                         </Link>
+
                     </li>
                     <li>
                         <a href="https://app.stablebase.org" target="_blank" rel="noopener noreferrer"
-                            className="relative inline-block rounded-3xl p-[2px] bg-gradient-to-b from-[#FFD572] to-[#FEBD38]">
-                            <span className="block px-6 py-1.5 bg-black text-gray-300 lg:font-semibold rounded-3xl shadow-lg hover:bg-gray-900 hover:text-white transition duration-300 ease-in-out">
-                                Launch App
-                            </span>
+                            className="p-2 px-5 rounded-3xl shadow-lg border-[1.5px] border-[#FEBD38] hover:border-[#906f2d] hover:text-white transition duration-300 ease-in-out">
+                            Launch App
                         </a>
 
                     </li>
