@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
               <img src={logo} alt="StableBase Logo" className="w-20 h-20 object-cover rounded-full" />
               <div className="text-center md:text-left">
-                <h1 className="text-3xl font-bold tracking-wide">
+                <h1 className="text-3xl font-bold tracking-wide bg-gradient-to-r from-[#FF8C42] to-[#FFD700] bg-clip-text text-transparent">
                   StableBase
                 </h1>
                 <p className="text-sm text-[#808080] mt-2">An Open source stablecoin protocol</p>
