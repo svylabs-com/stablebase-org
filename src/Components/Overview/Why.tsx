@@ -19,12 +19,12 @@ const Why: React.FC = () => {
                 {/* Right Side Content for Desktop */}
                 <div ref={contentRef} className="lg:w-1/2">
                     <GradientBackgroundContainer colorRight="#78CEF9b3">
-                        <div className='space-y-6 p-4 xl:p-6 2xl:p-8 text-gray-300'>
-                            <h2 className='text-xl lg:text-2xl 2xl:text-3xl font-bold text-[#78CEF9b3]'>
+                        <div className='space-y-6 p-4 xl:p-6 2xl:p-8 text-gray-400'>
+                            <h2 className='text-xl lg:text-2xl 2xl:text-3xl font-bold text-gray-100'>
                                 Motivation
                             </h2>
                             <div className='space-y-4'>
-                                <h4 className="text-md md:text-xl font-semibold text-[#a4daf6b3]">
+                                <h4 className="text-md md:text-xl font-semibold text-gray-200">
                                     Bitcoin backed
                                 </h4>
                                 <p className="text-base lg:text-lg leading-relaxed">
@@ -32,7 +32,7 @@ const Why: React.FC = () => {
                                 </p>
                             </div>
                             <div className='space-y-4'>
-                                <h4 className="text-md md:text-xl font-semibold text-[#a4daf6b3]">
+                                <h4 className="text-md md:text-xl font-semibold text-gray-200">
                                     One size fits all approach
                                 </h4>
                                 <p className="text-base lg:text-lg leading-relaxed">
@@ -40,7 +40,7 @@ const Why: React.FC = () => {
                                 </p>
                             </div>
                             <div className='space-y-4'>
-                                <h4 className="text-md md:text-xl font-semibold text-[#a4daf6b3]">
+                                <h4 className="text-md md:text-xl font-semibold text-gray-200">
                                     Achieve market stability with 0% Interest Rate
                                 </h4>
                                 <p className="text-base lg:text-lg leading-relaxed">
@@ -65,9 +65,9 @@ const Why: React.FC = () => {
                 <img
                     src={protocolImage}
                     alt="Why We Are Building"
-                    className="w-full opacity-30 object-fill h-[115vh] xs:h-[100vh] sm-xs:h-[88vh] md:h-[73vh]"
+                    className="w-full opacity-30 object-fill h-[107vh] xs:h-[93vh] sm-xs:h-[82vh] md:h-[67vh]"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col gap-6 justify-center items-center text-center p-2 md:p-4 text-gray-300">
+                <div className="absolute inset-0 bg-[#1E1E22] bg-opacity-50 flex flex-col gap-6 justify-center items-center text-center p-2 md:p-4 text-gray-400">
                     <h2 className="text-lg md:text-2xl font-bold text-[#78CEF9b3]">
                         Motivation
                     </h2>

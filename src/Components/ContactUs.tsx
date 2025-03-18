@@ -16,11 +16,11 @@ const ContactUs: React.FC = () => {
     return (
         // <section className="py-10 px-6 lg:p-10">
         <section className="px-6 lg:px-10 space-y-5 text-gray-300">
-            <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl text-[#808080]">Contact <span className="text-yellow-700">Us</span></h2>
+            <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl text-white">Contact <span className="text-[#FEBD38]">Us</span></h2>
             <div className="container mx-auto flex flex-col md:flex-row justify-between md:items-center h-full">
                 <div className="md:w-1/2 mb-10 md:mb-0 flex flex-col justify-center items-center h-full">
-                    <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-center text-yellow-600">Get In Touch</h2>
-                    <p className="text-base lg:text-lg leading-relaxed text-center">
+                    <h2 className="text-2xl lg:text-3xl font-bold mb-6 text-center text-gray-200">Get In Touch</h2>
+                    <p className="text-base lg:text-lg leading-relaxed text-center text-[#808080]">
                         Contact us to get involved, whether you are a user, an investor or looking to collaborate, we would love to hear from you.
                     </p>
                 </div>
@@ -85,7 +85,7 @@ const ContactUs: React.FC = () => {
 
                         <button
                             type="submit"
-                            className="w-full py-3 bg-yellow-600 text-[#161619] font-semibold rounded-lg shadow-lg hover:bg-yellow-500 hover:text-black transition ease-in-out duration-300"
+                            className="w-full py-3 bg-gradient-to-b from-[#FFD572] to-[#FEBD38] text-[#161619] font-semibold rounded-lg shadow-lg hover:bg-yellow-500 hover:text-black transition ease-in-out duration-300"
                         >
                             Send
                         </button>

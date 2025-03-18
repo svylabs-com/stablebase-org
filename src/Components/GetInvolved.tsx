@@ -9,7 +9,7 @@ import Footer from './Footer';
 const GetInvolved: React.FC = () => {
   return (
     <section className='space-y-8'>
-      <div className="text-gray-300 min-h-screen flex flex-col items-center justify-center px-6 lg:px-10">
+      <div className="text-gray-400 min-h-screen flex flex-col items-center justify-center px-6 lg:px-10">
         <div className="flex w-full justify-end">
           <Link to="/" className="hover:text-yellow-500 transition duration-300 mb-6" title="Back to Home">
             <FontAwesomeIcon icon={faArrowLeft} className="text-2xl" />
@@ -20,9 +20,9 @@ const GetInvolved: React.FC = () => {
           {/* Why Get Involved Section */}
           <div className="text-center space-y-4">
             {/* <h2 className="text-3xl font-semibold text-yellow-500 mb-4"> */}
-            <h2 className='text-2xl lg:text-3xl font-bold text-[#808080] text-center'>
+            <h2 className='text-2xl lg:text-3xl font-bold text-white text-center'>
               Why Get Involved?</h2>
-            <p className="">
+            <p className="text-[#808080]">
               Be a part of the stablecoin project that is being built from the ground up, with a focus on immutability and decentralization. There are several ways you can get involved in our ecosystem.
             </p>
           </div>

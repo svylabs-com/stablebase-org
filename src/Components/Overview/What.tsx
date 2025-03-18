@@ -15,7 +15,7 @@ const What: React.FC = () => {
 
     return (
         <section className="space-y-8 2xl:space-y-10 lg:px-10 2xl:px-14">
-            <h2 className='text-2xl lg:text-3xl font-bold text-[#808080] text-center'>
+            <h2 className='text-2xl lg:text-3xl font-bold text-center'>
                 Protocol Overview
             </h2>
             <div className="hidden lg:flex flex-row h-full gap-5 xl:gap-8 2xl:gap-10 items-stretch justify-between">
@@ -30,13 +30,13 @@ const What: React.FC = () => {
 
                 {/* Right Side Content for Desktop */}
                 <div ref={contentRef} className="lg:w-1/2">
-                    <GradientBackgroundContainer colorRight="#fd90d1b3">
-                        <div className='space-y-6 p-4 xl:p-6 2xl:p-8 text-gray-300'>
-                            <h2 className='text-xl lg:text-2xl 2xl:text-3xl font-bold text-[#fd90d1b3]'>
+                    <GradientBackgroundContainer colorRight="#7ed372b3">
+                        <div className='space-y-6 p-4 xl:p-6 2xl:p-8 text-gray-400'>
+                            <h2 className='text-xl lg:text-2xl 2xl:text-3xl font-bold text-gray-100'>
                                 WHAT IS STABLEBASE
                             </h2>
                             <div className='space-y-4'>
-                                <h4 className="text-md md:text-xl font-semibold text-[#fbabdbb3]">
+                                <h4 className="text-md md:text-xl font-semibold text-gray-200">
                                     CDP based Stablecoin Protocol
                                 </h4>
                                 <p className="text-base lg:text-lg leading-relaxed">
@@ -45,7 +45,7 @@ const What: React.FC = () => {
                                 </p>
                             </div>
                             <div className='space-y-4'>
-                                <h4 className="text-md md:text-xl font-semibold text-[#fbabdbb3]">
+                                <h4 className="text-md md:text-xl font-semibold text-gray-200">
                                     Unique Pay As You Go pricing model
                                 </h4>
                                 <p className="text-base lg:text-lg leading-relaxed">
@@ -62,14 +62,14 @@ const What: React.FC = () => {
                 <img
                     src={protocolImage}
                     alt="What We Are Building"
-                    className="w-full opacity-30 object-fill h-[90vh] xs:h-[80vh] sm-xs:h-[72vh] md:h-[55vh]"
+                    className="w-full opacity-30 object-fill h-[85vh] xs:h-[75vh] sm-xs:h-[67vh] md:h-[50vh]"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col gap-6 justify-center items-center text-center p-2 md:p-4 text-gray-300">
-                    <h2 className="text-lg md:text-2xl font-bold text-[#fd90d1b3]">
+                <div className="absolute inset-0 bg-[#1E1E22] bg-opacity-50 flex flex-col gap-6 justify-center items-center text-center p-2 md:p-4 text-gray-400">
+                    <h2 className="text-lg md:text-2xl font-bold text-[#7ed372b3]">
                         WHAT IS STABLEBASE
                     </h2>
                     <div className='space-y-4'>
-                        <h4 className="text-lg md:text-xl font-semibold text-[#fbabdbb3]">
+                        <h4 className="text-lg md:text-xl font-semibold text-[#b5fcabb3]">
                             CDP based Stablecoin Protocol
                         </h4>
                         <p className="text-base leading-relaxed">
@@ -78,7 +78,7 @@ const What: React.FC = () => {
                         </p>
                     </div>
                     <div className='space-y-4'>
-                        <h4 className="text-lg md:text-xl font-semibold text-[#fbabdbb3]">
+                        <h4 className="text-lg md:text-xl font-semibold text-[#b5fcabb3]">
                             Unique Pay As You Go pricing model
                         </h4>
                         <p className="text-base leading-relaxed">

@@ -33,7 +33,7 @@ const Header: React.FC = () => {
     }, [isMenuOpen]);
 
     return (
-        <header className="shadow-md sticky top-0 z-50 p-4 md:px-6 lg:px-10 flex justify-between items-center">
+        <header className="shadow-md sticky top-0 z-50 p-4 md:px-6 lg:px-10 flex justify-between items-center bg-[#161619]">
             <Link to="/" className="flex items-center">
                 <img src={StablebaseIcon} alt="Logo" className="h-12 w-12 mr-3 rounded-full" />
                 <h4 className="text-3xl font-bold tracking-wide">
@@ -131,8 +131,6 @@ const Header: React.FC = () => {
                     </a>
                 </div>
             )}
-
-
         </header>
     );
 };
