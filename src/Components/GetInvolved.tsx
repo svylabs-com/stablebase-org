@@ -19,7 +19,7 @@ const GetInvolved: React.FC = () => {
         <div className="w-full max-w-5xl space-y-8">
           {/* Why Get Involved Section */}
           <div className="text-center space-y-4">
-            <h2 className='text-2xl lg:text-3xl font-bold text-white text-center'>
+            <h2 className='text-2xl lg:text-3xl font-bold text-white text-center tracking-wide'>
               Why Get Involved?</h2>
             <p className="text-[#808080]">
               Be a part of the stablecoin project that is being built from the ground up, with a focus on immutability and decentralization. There are several ways you can get involved in our ecosystem.
@@ -31,7 +31,7 @@ const GetInvolved: React.FC = () => {
             {/* User Section */}
             <GradientBackgroundContainer colorRight="#fd90d1b3">
               <div className="space-y-4 p-4">
-                <h2 className="text-2xl font-semibold flex items-center text-gray-100">
+                <h2 className="text-2xl font-semibold flex items-center text-gray-100 tracking-wide">
                   <FontAwesomeIcon icon={faUsers} className="text-3xl mr-4 text-[#fd90d1b3]" />
                   Users
                 </h2>
@@ -53,7 +53,7 @@ const GetInvolved: React.FC = () => {
             {/* Liquidity Providers Section */}
             <GradientBackgroundContainer colorRight="#67D558b3">
               <div className="space-y-4 p-4">
-                <h2 className="text-2xl font-semibold flex items-center text-gray-100">
+                <h2 className="text-2xl font-semibold flex items-center text-gray-100 tracking-wide">
                   <FontAwesomeIcon icon={faWallet} className="text-3xl mr-4 text-[#67D558b3]" />
                   Yield Farmers
                 </h2>
@@ -71,7 +71,7 @@ const GetInvolved: React.FC = () => {
             {/* Developer Section */}
             <GradientBackgroundContainer colorRight="#78CEF9b3">
               <div className="space-y-4 p-4">
-                <h2 className="text-2xl font-semibold flex items-center text-gray-100">
+                <h2 className="text-2xl font-semibold flex items-center text-gray-100 tracking-wide">
                   <FontAwesomeIcon icon={faCode} className="text-3xl mr-4 text-[#78CEF9b3]" />
                   Developer
                 </h2>
@@ -103,7 +103,7 @@ const GetInvolved: React.FC = () => {
             {/* Investors Section */}
             <GradientBackgroundContainer colorRight="#faaf25b3">
               <div className="space-y-4 p-4">
-                <h2 className="text-2xl font-semibold flex items-center text-gray-100">
+                <h2 className="text-2xl font-semibold flex items-center text-gray-100 tracking-wide">
                   <FontAwesomeIcon icon={faDollarSign} className="text-3xl mr-4 text-[#faaf25b3]" />
                   Investors
                 </h2>

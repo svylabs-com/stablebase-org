@@ -15,7 +15,7 @@ const What: React.FC = () => {
 
     return (
         <section className="space-y-8 2xl:space-y-10 lg:px-10 2xl:px-14">
-            <h2 className='text-2xl lg:text-3xl font-bold text-center'>
+            <h2 className='text-2xl lg:text-3xl font-bold text-center tracking-wide'>
                 Protocol Overview
             </h2>
             <div className="hidden lg:flex flex-row h-full gap-5 xl:gap-8 2xl:gap-10 items-stretch justify-between">

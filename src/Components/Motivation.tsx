@@ -5,7 +5,8 @@ const Motivation: React.FC = () => {
     return (
         <section className="py-10 px-6">
                 <div className="space-y-8 2xl:space-y-10 container mx-auto">
-                    <h2 className='text-2xl lg:text-3xl font-bold text-center'>
+                    <h2 className='text-2xl lg:text-3xl font-bold text-center tracking-wide'>
+                    {/* drop-shadow-[0_0_10px_rgba(245,197,96,0.6)] */}
                     Guiding Principles
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 2xl:gap-10">

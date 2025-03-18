@@ -43,7 +43,7 @@ const ExpertTeam: React.FC = () => {
 
     return (
         <section className="flex flex-col items-center gap-3 mt-5 lg:mt-8">
-            <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl">
+            <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl tracking-wide">
                 Our <span className="text-[#FEBD38]">Team</span>
             </h2>
             <p className="text-center px-4 md:px-10 text-xs">
