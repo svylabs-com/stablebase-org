@@ -53,20 +53,23 @@ const Header: React.FC = () => {
                         </a>
                         <span className="absolute left-0 bottom-[-2px] w-0 h-0.5 bg-[#FEBD38] group-hover:w-full transition-all duration-300"></span>
                     </li>
-                    <li>
-                        <Link to="/get-involved" className="p-2 px-5 rounded-3xl shadow-lg border-[1.5px] border-[#FEBD38] hover:border-[#906f2d] hover:text-white hover:rounded-none transition duration-300 ease-in-out">
-                            Get Involved
+                    <li className="relative group">
+                        <Link to="/get-involved" className="flex items-center justify-center p-1.5 px-5 rounded-3xl shadow-lg border-[1.5px] border-[#FEBD38] hover:border-[#906f2d] hover:text-white hover:rounded-none transition duration-300 ease-in-out">
+                            <span className="transition-all duration-300 ease-in-out group-hover:translate-x-2">
+                                Get Involved
+                            </span>
+                            <span className="absolute left-2 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 group-hover:left-2">→</span>
                         </Link>
-
                     </li>
-                    <li>
-                        <a href="https://app.stablebase.org" target="_blank" rel="noopener noreferrer"
-                            className="p-2 px-5 rounded-3xl shadow-lg border-[1.5px] border-[#FEBD38] hover:border-[#906f2d] hover:text-white transition duration-300 ease-in-out">
+                    <li className="relative group">
+                    <a href="https://app.stablebase.org" target="_blank" rel="noopener noreferrer"
+                            className="flex items-center justify-center p-1.5 px-5 rounded-3xl shadow-lg border-[1.5px] border-[#FEBD38] hover:border-[#906f2d] hover:text-white hover:rounded-none transition duration-300 ease-in-out">
+                            <span className="transition-all duration-300 ease-in-out group-hover:translate-x-2">
                             Launch App
-                        </a>
-
+                            </span>
+                            <span className="absolute left-2 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 group-hover:left-2">→</span>
+                            </a>
                     </li>
-
                 </ul>
             </nav>
 
