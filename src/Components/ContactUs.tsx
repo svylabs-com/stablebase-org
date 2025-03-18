@@ -85,7 +85,7 @@ const ContactUs: React.FC = () => {
 
                         <button
                             type="submit"
-                            className="w-full py-3 bg-gradient-to-b from-[#FFD572] to-[#FEBD38] text-[#161619] font-semibold rounded-lg shadow-lg hover:bg-yellow-500 hover:text-black transition ease-in-out duration-300"
+                            className="w-full py-3 bg-gradient-to-b from-[#FFD572] to-[#FEBD38] text-[#161619] font-semibold rounded-lg shadow-[0px_10px_20px_0px_#FBCC6440] hover:bg-yellow-500 hover:text-black transition ease-in-out duration-300"
                         >
                             Send
                         </button>

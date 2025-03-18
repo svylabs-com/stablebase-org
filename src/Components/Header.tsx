@@ -61,7 +61,7 @@ const Header: React.FC = () => {
                             <span className="absolute left-2 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 group-hover:left-2">→</span>
                         </Link>
                     </li>
-                    <li className="relative group">
+                    {/* <li className="relative group">
                     <a href="https://app.stablebase.org" target="_blank" rel="noopener noreferrer"
                             className="flex items-center justify-center p-1.5 px-5 rounded-3xl shadow-lg border-[1.5px] border-[#FEBD38] hover:border-[#906f2d] hover:text-white hover:rounded-none transition duration-300 ease-in-out">
                             <span className="transition-all duration-300 ease-in-out group-hover:translate-x-2">
@@ -69,6 +69,12 @@ const Header: React.FC = () => {
                             </span>
                             <span className="absolute left-2 opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100 group-hover:left-2">→</span>
                             </a>
+                    </li> */}
+                    <li>
+                        <a href="https://app.stablebase.org" target="_blank" rel="noopener noreferrer"
+                            className="p-3 px-5 rounded-xl bg-gradient-to-b from-[#FFD572] to-[#FEBD38] text-[#161619] font-semibold shadow-[0px_10px_20px_0px_#FBCC6440]">
+                            Launch App
+                        </a>
                     </li>
                 </ul>
             </nav>

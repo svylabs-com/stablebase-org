@@ -29,7 +29,7 @@ const Home: React.FC = () => {
               Get started with whitepaper
             </a> */}
              <a
-              className="px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-b from-[#FFD572] to-[#FEBD38] text-[#161619] font-semibold rounded-lg shadow-lg hover:bg-yellow-500 hover:text-black transition duration-300 ease-in-out text-xs sm:text-base"
+              className="px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-b from-[#FFD572] to-[#FEBD38] text-[#161619] font-semibold rounded-lg shadow-[0px_10px_20px_0px_#FBCC6440] hover:bg-yellow-500 hover:text-black transition duration-300 ease-in-out text-xs sm:text-base"
               href='https://github.com/svylabs/stablebase/blob/main/WHITEPAPER.md'
             >
               Get started with whitepaper
