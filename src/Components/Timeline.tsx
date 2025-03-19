@@ -1,4 +1,5 @@
 import React from 'react';
+import GradientBackgroundContainer from "./GradientBackgroundContainer/GradientBackgroundContainer";
 
 const Timeline: React.FC = () => {
     const timelineItems = [
@@ -65,26 +66,25 @@ const Timeline: React.FC = () => {
             <h2 className="font-bold text-center pt-2 text-2xl md:text-3xl mb-10 tracking-wide">Project Timeline</h2>
             <div className="container mx-auto relative">
                 {/* Timeline vertical line */}
-                <div className="absolute w-1 bg-gray-700 h-full left-1/2 transform -translate-x-1/2 z-0"></div>
+                <div className="absolute w-1 bg-gray-700 lg:bg-[#808080] h-full left-1/2 transform -translate-x-1/2 z-0"></div>
 
                 {/* Timeline items */}
                 {timelineItems.map((item, index) => (
                     <div
                         key={index}
-                        className={`flex flex-col items-center mb-10 lg:mb-20 ${
-                            index % 2 === 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'
-                        }`}
+                        className={`flex flex-col items-center mb-10 lg:mb-20 mx-2 md:mx-0 ${index % 2 === 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'
+                            }`}
                     >
                         <div className="lg:w-1/2 lg:px-10 min-w-full md:min-w-fit z-10">
                             {/* Content block */}
-                            <div
-                                className={`p-6 rounded-lg shadow-lg ${
-                                    index % 2 === 0 ? 'bg-gray-600' : 'bg-gray-500'
-                                }`}
-                            >
-                                <h3 className="text-lg font-semibold text-gray-100">{item.date}</h3>
-                                <p className="mt-2 text-sm text-gray-300">{item.content}</p>
-                            </div>
+                            <GradientBackgroundContainer>
+                                <div
+                                    className={`p-6 rounded-lg shadow-lg lg:bg-transparent ${index % 2 === 0 ? 'bg-gray-800' : 'bg-gray-700'
+                                        }`}
+                                >
+                                    <h3 className="text-lg font-semibold text-gray-100">{item.date}</h3>
+                                    <p className="mt-2 text-sm text-gray-400">{item.content}</p>
+                                </div></GradientBackgroundContainer>
                         </div>
 
                         {/* Circle and line connector */}
