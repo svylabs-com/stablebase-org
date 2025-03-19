@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           {/* Logo and Info */}
           <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-8">
             {/* Logo and Heading */}
-            <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
+            <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-3 lg:space-x-6 w-full">
               <img src={logo} alt="StableBase Logo" className="w-20 h-20 object-cover rounded-full" />
               <div className="text-center md:text-left">
                 <h1 className="text-3xl font-bold tracking-wide bg-gradient-to-r from-[#FF8C42] to-[#FFD700] bg-clip-text text-transparent">
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
             </div>
 
             {/* Info Text */}
-            <div className="mt-6 md:mt-0 max-w-lg text-[#808080] text-center md:text-left leading-relaxed">
+            <div className="mt-6 md:mt-0 w-full max-w-lg text-[#808080] text-center md:text-left leading-relaxed">
               <p>
                 StableBase is an open source, market-driven protocol for minting stablecoins with a simple pay-as-you-go pricing model.
               </p>
