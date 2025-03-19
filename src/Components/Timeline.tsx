@@ -75,7 +75,7 @@ const Timeline: React.FC = () => {
                         className={`flex flex-col items-center mb-10 lg:mb-20 mx-2 md:mx-0 ${index % 2 === 0 ? 'lg:flex-row-reverse' : 'lg:flex-row'
                             }`}
                     >
-                        <div className="lg:w-1/2 lg:px-10 min-w-full md:min-w-fit z-10">
+                        <div className="lg:px-10 lg:w-1/2 z-10">
                             {/* Content block */}
                             <GradientBackgroundContainer>
                                 <div
@@ -84,7 +84,8 @@ const Timeline: React.FC = () => {
                                 >
                                     <h3 className="text-lg font-semibold text-gray-100">{item.date}</h3>
                                     <p className="mt-2 text-sm text-gray-400">{item.content}</p>
-                                </div></GradientBackgroundContainer>
+                                </div>
+                            </GradientBackgroundContainer>
                         </div>
 
                         {/* Circle and line connector */}
